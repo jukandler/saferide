@@ -1,6 +1,10 @@
 header {
   position: relative;
   margin-bottom: 80px;
+
+  @media (min-width: 750px) {
+    margin-bottom: 140px;
+  }
 }
 
 .hero-image {
@@ -9,6 +13,11 @@ header {
   object-fit: cover;
   object-position: center;
   max-width: 1800px;
+
+  @media (min-width: 750px) {
+    height: 35vh;
+    object-position: right;
+  }
 }
 
 .saferide-logo {
@@ -19,19 +28,8 @@ header {
   bottom: -55px;
   left: calc(50% - 75px);
   box-shadow: 5px 5px 40px -20px #2e2e2e;
-}
 
-@media (min-width: 750px) {
-    header {
-    margin-bottom: 140px;
-    }
-
-    .hero-image {
-    height: 35vh;
-    object-position: right;
-    }
-
-  .saferide-logo {
+  @media (min-width: 750px) {
     width: 250px;
     height: 250px;
     bottom: -95px;
