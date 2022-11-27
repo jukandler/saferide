@@ -19,11 +19,11 @@
 
 .nav-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 70px;
     max-width: 1500px;
+    margin: 0 20px;
 }
 
 .main-container {
@@ -33,15 +33,6 @@
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.3);
-}
-
-.nav-logo {
-    /* align-items: center; */
-    margin-left: 20px;
-    cursor: pointer;
-    /* text-decoration: none;
-    font-size: 2rem;
-    flex-grow: 1; */
 }
 
 .nav-menu {
@@ -70,7 +61,6 @@
         justify-content: end;
         list-style: none;
         text-align: center;
-        margin-right: 2rem;
         position: relative;
         top: unset;
         left: unset;
@@ -119,10 +109,6 @@
 
 .nav-icon {
     display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
     color: #ffffff;
