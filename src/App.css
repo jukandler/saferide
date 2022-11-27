@@ -32,7 +32,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+b {
   font-family: "OpenSansSemiBold";
 }
 
@@ -60,9 +61,54 @@ h3 {
   padding: 10px 30px;
   border-radius: 20px;
   margin: 40px auto;
+  box-shadow: 10px 10px 20px -20px #2e2e2e;
 
   @media (min-width: 750px) {
     padding: 15px 65px;
     width: fit-content;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .whatsapp-hint {
+    margin: 20px 0;
+
+    a {
+      height: 45px;
+      display: block;
+
+      img {
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+        transition: width 0.2s, height 0.2s;
+      }
+
+      &:hover img {
+        width: 45px;
+        height: 45px;
+      }
+    }
+  }
+}
+
+#imprint,
+#portfolio {
+  h2 {
+    margin-top: 60px;
+  }
+
+  section {
+    margin-top: 40px;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    &.align-left p {
+      text-align: justify;
+    }
   }
 }
