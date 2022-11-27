@@ -1,3 +1,4 @@
+import Contact from '../components/contact/Contact';
 import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 
@@ -44,6 +45,7 @@ function Portfolio() {
                     <p>Notmanöver</p>
                     <p>Sicherheit in Kurven und Schräglage</p>
                 </section>
+                <Contact />
             </div>
             <Footer />
         </div>
