@@ -5,34 +5,35 @@ header {
   @media (min-width: 750px) {
     margin-bottom: 140px;
   }
-}
-
-.hero-image {
-  width: 100vw;
-  height: 40vh;
-  object-fit: cover;
-  object-position: center;
-  max-width: 1800px;
-
-  @media (min-width: 750px) {
-    height: 35vh;
-    object-position: right;
+  
+  .hero-image {
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
+    max-width: 1800px;
+  
+    @media (min-width: 750px) {
+      height: 35vh;
+      object-position: right;
+    }
+  }
+  
+  .saferide-logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -55px;
+    left: calc(50% - 75px);
+    box-shadow: 5px 5px 40px -20px #2e2e2e;
+  
+    @media (min-width: 750px) {
+      width: 250px;
+      height: 250px;
+      bottom: -95px;
+      left: calc(50% - 125px);
+    }
   }
 }
 
-.saferide-logo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: -55px;
-  left: calc(50% - 75px);
-  box-shadow: 5px 5px 40px -20px #2e2e2e;
-
-  @media (min-width: 750px) {
-    width: 250px;
-    height: 250px;
-    bottom: -95px;
-    left: calc(50% - 125px);
-  }
-}
