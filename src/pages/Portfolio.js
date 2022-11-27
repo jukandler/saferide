@@ -5,7 +5,7 @@ import Header from '../components/header/Header';
 function Portfolio() {
     return (
         <div id="portfolio">
-            <Header />
+            <Header image="https://images.unsplash.com/photo-1630406144797-821be1f35d75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3570&q=80" />
             <div className="grid-text_wide">
                 <h1>Leistungen</h1>
                 <div className="disclaimer">
