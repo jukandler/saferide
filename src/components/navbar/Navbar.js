@@ -1,14 +1,91 @@
+import { useState } from "react";
 import {
-  Link
+    Link,
+    NavLink
 } from "react-router-dom";
+import { MdClose, MdMenu } from "react-icons/md";
+
+
+import logo from '../header/logo.jpg';
 
 import './navbar.css';
 
 function NavBar() {
+    const [click, setClick] = useState(false);
+
+    const handleClick = () => setClick(!click);
+    const Close = () => setClick(false);
+
     return (
-        <div class="navbar">
-            <Link to="/trainings">Trainings</Link>
-            <Link to="/about">Über mich</Link>
+        <div>
+            <div className={click ? "main-container" : ""}  onClick={()=>Close()} />
+            <nav className="navbar" onClick={e => e.stopPropagation()}>
+            <div className="nav-container">
+                <Link exact to="/" className="nav-logo">
+                    <img className="logo" src={logo} alt="saferide logo"></img>
+                </Link>
+                <ul className={click ? "nav-menu active" : "nav-menu"}>
+                <li className="nav-item">
+                    <NavLink
+                        exact
+                        to="/"
+                        activeclassname="active"
+                        className="nav-links"
+                        onClick={click ? handleClick : null}
+                        >
+                        Startseite
+                    </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink
+                        exact
+                        to="/trainer"
+                        activeclassname="active"
+                        className="nav-links"
+                        onClick={click ? handleClick : null}
+                        >
+                        Trainer
+                    </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink
+                        exact
+                        to="/leistungen"
+                        activeclassname="active"
+                        className="nav-links"
+                        onClick={click ? handleClick : null}
+                        >
+                        Leistungen
+                    </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink
+                        exact
+                        to="/preise"
+                        activeclassname="active"
+                        className="nav-links"
+                        onClick={click ? handleClick : null}
+                        >
+                        Preise
+                    </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink
+                        exact
+                        to="/gutscheine"
+                        activeclassname="active"
+                        className="nav-links"
+                        onClick={click ? handleClick : null}
+                        >
+                        Gutscheine
+                    </NavLink>
+                </li>
+                </ul>
+                <div className="nav-icon" onClick={handleClick}>
+                    { click ? <MdClose /> : <MdMenu />}
+                </div>
+            </div>
+            </nav>
         </div>
     )
 }
