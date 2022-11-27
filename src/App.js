@@ -11,6 +11,7 @@ import Imprint from "./pages/Imprint";
 import ScrollToTop from "./helpers/scrollToTopl";
 import Portfolio from "./pages/Portfolio";
 import NavBar from "./components/navbar/Navbar";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/impressum" element={<Imprint/>} />
           <Route path="/leistungen" element={<Portfolio/>} />
+          <Route path="/trainer" element={<About/>} />
         </Routes>
       </HashRouter>
     </div>
