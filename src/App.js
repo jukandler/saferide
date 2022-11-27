@@ -19,9 +19,9 @@ function App() {
         <ScrollToTop />
         <NavBar />
         <Routes>
-          <Route exact path="/" element={<Home/>} />
-          <Route exact path="/impressum" element={<Imprint/>} />
-          <Route exact path="/leistungen" element={<Portfolio/>} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/impressum" element={<Imprint/>} />
+          <Route path="/leistungen" element={<Portfolio/>} />
         </Routes>
       </HashRouter>
     </div>

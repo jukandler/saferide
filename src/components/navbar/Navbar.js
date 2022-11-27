@@ -21,13 +21,12 @@ function NavBar() {
             <div className={click ? "main-container" : ""}  onClick={()=>Close()} />
             <nav className="navbar" onClick={e => e.stopPropagation()}>
             <div className="nav-container">
-                <Link exact to="/" className="nav-logo">
+                <Link to="/" className="nav-logo">
                     <img className="logo" src={logo} alt="saferide logo"></img>
                 </Link>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li className="nav-item">
                     <NavLink
-                        exact
                         to="/"
                         activeclassname="active"
                         className="nav-links"
@@ -38,7 +37,6 @@ function NavBar() {
                 </li>
                 <li className="nav-item">
                     <NavLink
-                        exact
                         to="/trainer"
                         activeclassname="active"
                         className="nav-links"
@@ -49,7 +47,6 @@ function NavBar() {
                 </li>
                 <li className="nav-item">
                     <NavLink
-                        exact
                         to="/leistungen"
                         activeclassname="active"
                         className="nav-links"
@@ -60,7 +57,6 @@ function NavBar() {
                 </li>
                 <li className="nav-item">
                     <NavLink
-                        exact
                         to="/preise"
                         activeclassname="active"
                         className="nav-links"
@@ -71,7 +67,6 @@ function NavBar() {
                 </li>
                 <li className="nav-item">
                     <NavLink
-                        exact
                         to="/gutscheine"
                         activeclassname="active"
                         className="nav-links"
