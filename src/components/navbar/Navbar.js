@@ -6,7 +6,7 @@ import {
 import { MdClose, MdMenu } from "react-icons/md";
 
 
-import logo from '../header/logo.jpg';
+import logo from './navbar-logo.jpg';
 
 import './navbar.css';
 

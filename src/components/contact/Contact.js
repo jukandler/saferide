@@ -2,10 +2,10 @@ import whatsapp_glyph from './whatsapp_logo.png';
 
 import './contact.css';
 
-function Contact() {
+function Contact({ forwardedRef }) {
     return (
-        <div className="contact">
-            <h3>Kontakt:</h3>
+        <div className="contact" ref={forwardedRef}>
+            <h3 id="contact">Kontakt:</h3>
             <p><b>Stefan Kandler</b></p>
             <p>Telefon: <a href="tel:+4915201996436">+49 1520 199 6436</a></p>
             <p>E-Mail: <a href="mailto:ks@kskandler.de">ks@kskandler.de</a></p>

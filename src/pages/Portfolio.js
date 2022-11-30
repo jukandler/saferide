@@ -14,33 +14,47 @@ function Portfolio() {
                     <p>Auf Wunsch sind auch Trainings in Kleingruppen oder Roller-Trainings möglich.</p>
                 </div>
                 <h2>Auto Fahrtraining</h2>
+                <h3>Der Weg zum sicheren Autofahrer</h3>
                 <section>
+                    <h3>Vor der Fahrt</h3>
+                    <p>Wichtige Grundkenntnisse über Fahrzeug und Mechanik</p>
+                    <p>Richtige Vorbereitubng vor der Fahrt inkl. Sitzposotion und co.</p>
+                    <p>Neues Fahrzeug / Assistenzsysteme kennenlernen</p>
+                </section>
+                <section>
+                    <h3>Auf der Strecke</h3>
                     <p>Auffrischungsstunden</p>
                     <p>Wiedereinstieg nach längerer Fahrpause</p>
                     <p>Sicheres Fahren im Alter</p>
                     <p>Fahrängste nach Unfall</p>
                     <p>Unterstützung bei Blockaden oder Panikattacken</p>
+                    <p>Fahrtechnik und Notmanöver</p>
                 </section>
                 <section>
+                    <h3>Sicher trotz Einschränkungen</h3>
                     <p>Fahren mit körperlichen Einschränkungen</p>
                     <p>Beobachtungsfahrt nach Erkrankungen</p>
                 </section>
                 <section>
-                    <p>Wohnmobil, Wohnwagen und Anhänger-Schulung</p>
-                    <p>Fahrtechnik und Notmanöver</p>
-                    <p>Neues Fahrzeug / Assistenzsysteme kennenlernen</p>
+                    <h3>Wohnmobil, Wohnwagen und Anhänger-Schulung</h3>
+                    <p>Sicheres Fahren mit Wohnmobil, Wohnwagen oder Anhänger</p>
                 </section>
                 <h2>Motorrad Fahrtraining</h2>
+                <h3>Von der Prüfungsvorbereitung über die Auswahl des richtigen Motorrads zum sicheren Fahrer</h3>
                 <section>
+                <h3>Vorbereitung auf den (Wieder)einstieg</h3>
+                    <p>Tipps zum Führerschein für Späteinsteiger</p>
                     <p>Auffrischungsstunden</p>
                     <p>Wiedereinstieg nach längerer Fahrpause</p>
-                    <p>Tipps zum Führerschein für Späteinsteiger</p>
                 </section>
                 <section>
+                    <h3>Die richtige Ausrüstung</h3>
                     <p>Beratung bei der Wahl des richtigen Motorrads</p>
+                    <p>Beratung bei der Wahl der richtgiten Schutzkleidung</p>
                     <p>Neues Fahrzeug kennenlernen</p>
                 </section>
                 <section>
+                    <h3>Auf der Strecke</h3>
                     <p>Verbesserung der Fahrtechnik</p>
                     <p>Notmanöver</p>
                     <p>Sicherheit in Kurven und Schräglage</p>
