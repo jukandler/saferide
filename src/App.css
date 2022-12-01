@@ -137,6 +137,8 @@ button {
   .introduction {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
     @media (min-width: 750px) {
       &.image-left {
@@ -158,6 +160,8 @@ button {
     
     p {
       text-align: justify;
+      hyphens: auto;
+      -webkit-hyphenate-character: "-";
     }
 
     .portrait-image {
@@ -196,6 +200,8 @@ button {
 
     .description {
       text-align: justify;
+      hyphens: auto;
+      -webkit-hyphenate-character: "-";
     }
 
     h2 {
