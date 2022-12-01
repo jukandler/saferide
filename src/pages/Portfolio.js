@@ -37,25 +37,25 @@ function Portfolio() {
                         </p>
                     </div>
                     <h3>Mögliche Coaching-Schwerpunkte:</h3>
-                    <div className="section-topics">
-                        <p>Auffrischungsstunden</p>
-                        <p>Wiedereinstieg nach längerer Fahrpause</p>
-                        <p>Sicheres Fahren im Alter</p>
-                        <p>Fahrängste nach Unfall</p>
-                        <p>Unterstützung bei Blockaden oder Panikattacken</p>
-                        <p>Fahrtechnik und Notmanöver</p>
+                    <div className="section-topics align-left">
+                        <li>Auffrischungsstunden</li>
+                        <li>Wiedereinstieg nach längerer Fahrpause</li>
+                        <li>Sicheres Fahren im Alter</li>
+                        <li>Fahrängste nach Unfall</li>
+                        <li>Unterstützung bei Blockaden oder Panikattacken</li>
+                        <li>Fahrtechnik und Notmanöver</li>
                     </div>
-                    <div className="section-topics">
-                        <p>Fahren mit körperlichen Einschränkungen</p>
-                        <p>Beobachtungsfahrt nach Erkrankungen</p>
+                    <div className="section-topics align-left">
+                        <li>Fahren mit körperlichen Einschränkungen</li>
+                        <li>Beobachtungsfahrt nach Erkrankungen</li>
                     </div>
-                    <div className="section-topics">
-                        <p>Wichtige Grundkenntnisse über Fahrzeug und Mechanik</p>
-                        <p>Richtige Vorbereitubng vor der Fahrt inkl. Sitzposotion und co.</p>
-                        <p>Neues Fahrzeug / Assistenzsysteme kennenlernen</p>
+                    <div className="section-topics align-left">
+                        <li>Wichtige Grundkenntnisse über Fahrzeug und Mechanik</li>
+                        <li>Richtige Vorbereitubng vor der Fahrt inkl. Sitzposotion und co.</li>
+                        <li>Neues Fahrzeug / Assistenzsysteme kennenlernen</li>
                     </div>
-                    <div className="section-topics">
-                        <p>Sicheres Fahren mit Wohnmobil, Wohnwagen oder Anhänger</p>
+                    <div className="section-topics align-left">
+                        <li>Sicheres Fahren mit Wohnmobil, Wohnwagen oder Anhänger</li>
                     </div>
                 </section>
                 <section className="portfolio-section">
@@ -71,20 +71,20 @@ function Portfolio() {
                         </p>
                     </div>
                     <h3>Mögliche Coaching-Schwerpunkte:</h3>
-                    <div className="section-topics">
-                        <p>Tipps zum Führerschein für Späteinsteiger</p>
-                        <p>Auffrischungsstunden</p>
-                        <p>Wiedereinstieg nach längerer Fahrpause</p>
+                    <div className="section-topics align-left">
+                        <li>Tipps zum Führerschein für Späteinsteiger</li>
+                        <li>Auffrischungsstunden</li>
+                        <li>Wiedereinstieg nach längerer Fahrpause</li>
                     </div>
-                    <div className="section-topics">
-                        <p>Verbesserung der Fahrtechnik</p>
-                        <p>Notmanöver</p>
-                        <p>Sicherheit in Kurven und Schräglage</p>
+                    <div className="section-topics align-left">
+                        <li>Verbesserung der Fahrtechnik</li>
+                        <li>Notmanöver</li>
+                        <li>Sicherheit in Kurven und Schräglage</li>
                     </div>
-                    <div className="section-topics">
-                        <p>Beratung bei der Wahl des richtigen Motorrads</p>
-                        <p>Beratung bei der Wahl der richtgiten Schutzkleidung</p>
-                        <p>Neues Fahrzeug kennenlernen</p>
+                    <div className="section-topics align-left">
+                        <li>Beratung bei der Wahl des richtigen Motorrads</li>
+                        <li>Beratung bei der Wahl der richtgiten Schutzkleidung</li>
+                        <li>Neues Fahrzeug kennenlernen</li>
                     </div>
                 </section>
                 <section className="portfolio-section">
@@ -98,26 +98,23 @@ function Portfolio() {
                             Ich unterrichte regelmäßig in Volkshochschulen, Seniorenvereinen oder generell interessierten Gruppen über Verkehrsregeln, Neuerungen der Straßenverkehrsordnung, Fahrzeugtechnik und Fahrsicherheit.
                         </p>
                     </div>
-                    <h3>Mögliche Coaching-Schwerpunkte:</h3>
-                    <div className="section-topics">
-                        <p>Auffrischungsstunden</p>
-                        <p>Wiedereinstieg nach längerer Fahrpause</p>
-                        <p>Sicheres Fahren im Alter</p>
-                        <p>Fahrängste nach Unfall</p>
-                        <p>Unterstützung bei Blockaden oder Panikattacken</p>
-                        <p>Fahrtechnik und Notmanöver</p>
-                    </div>
-                    <div className="section-topics">
-                        <p>Fahren mit körperlichen Einschränkungen</p>
-                        <p>Beobachtungsfahrt nach Erkrankungen</p>
-                    </div>
-                    <div className="section-topics">
-                        <p>Wichtige Grundkenntnisse über Fahrzeug und Mechanik</p>
-                        <p>Richtige Vorbereitubng vor der Fahrt inkl. Sitzposotion und co.</p>
-                        <p>Neues Fahrzeug / Assistenzsysteme kennenlernen</p>
-                    </div>
-                    <div className="section-topics">
-                        <p>Sicheres Fahren mit Wohnmobil, Wohnwagen oder Anhänger</p>
+                    <h3>Beliebter Unterricht: "Die 50 größten Irrtümer im Straßenverkehr"</h3>
+                    <div className="section-topics align-left">
+                        <p><b>Unter anderem werden folgende Fragen geklärt:</b></p>
+                        <li>Sind Kopfhörer beim Radfahren wirklich verboten?</li>
+                        <li>Darf ich mit abgelaufenem TÜV fahren?</li>
+                        <li>Ist rechts überholen auf der Autobahn immer verboten?</li>
+                        <li>Gilt auf Parkplätzen rechts vor links?</li>
+                        <li>Reicht es, bei einem Parkrempler einen Zettel zu hinterlassen?</li>
+                        <li>Darf man wegen Wild auf der Fahrbahn stark bremsen?</li>
+                        <li>Ist Fahren mit Flip Flops oder barfuß verboten?</li>
+                        <li>Darf man bei verletzten Motorradfahrern den Helm abnehmen?</li>
+                        <li>Dürfen auf dem Radweg Fahrende knapper überholt werden?</li>
+                        <li>Schadet untertourig fahren dem Motor?</li>
+                        <li>Darf man mit dem Fahrrad alkoholisiert fahren?</li>
+                        <li>Gehören die besseren Reifen wirklich auf die angetriebene Achse?</li>
+                        <li>Darf ich bei Aquaplaning oder in einer Kurve stark bremsen?</li>
+                        <li>uvm...</li>
                     </div>
                 </section>
                 <Contact />

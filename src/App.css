@@ -208,6 +208,14 @@ button {
     
     .section-topics {
       margin-top: 40px;
+
+      &.align-left {
+        text-align: left;
+      }
+
+      li {
+        margin-bottom: 5px;
+      }
     }
   }
 }

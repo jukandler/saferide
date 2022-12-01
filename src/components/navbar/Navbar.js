@@ -37,22 +37,22 @@ function NavBar() {
                 </li>
                 <li className="nav-item">
                     <NavLink
-                        to="/trainer"
-                        activeclassname="active"
-                        className="nav-links"
-                        onClick={click ? handleClick : null}
-                        >
-                        Trainer
-                    </NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink
                         to="/leistungen"
                         activeclassname="active"
                         className="nav-links"
                         onClick={click ? handleClick : null}
                         >
                         Leistungen
+                    </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink
+                        to="/trainer"
+                        activeclassname="active"
+                        className="nav-links"
+                        onClick={click ? handleClick : null}
+                        >
+                        Trainer
                     </NavLink>
                 </li>
                 <li className="nav-item">
