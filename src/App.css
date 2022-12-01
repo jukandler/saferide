@@ -37,6 +37,23 @@ b {
   font-family: "OpenSansSemiBold";
 }
 
+ul.intro {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+
+  li {
+    text-align: left;
+    padding-left: 1em;
+    text-indent: -1em;
+
+    &:before {
+      content: "+";
+      padding-right: 5px;
+    }
+  }
+}
+
 button {
   border: 2px solid #356C77;
   background: white;
@@ -94,18 +111,20 @@ button {
 }
 
 .grid-text_wide {
+  padding: 0 24px;
   max-width: min(648px, calc(100% - (2 * 25px)));
+  margin: 0 auto;
+}
+
+.grid-expanded {
+  padding: 0 24px;
+  max-width: 912px;
   margin: 0 auto;
 }
 
 .instagram-logo {
   width: 40px;
   height: 40px;
-}
-
-.usp-container {
-  background-color: white;
-  padding: 40px 0;
 }
 
 #imprint,

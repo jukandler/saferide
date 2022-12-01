@@ -3,6 +3,7 @@ import Footer from '../components/footer/Footer';
 import Contact from '../components/contact/Contact';
 import { Link } from 'react-router-dom';
 import { useRef } from 'react';
+import Usp from '../components/usp/Usp';
 
 function Home() {
 
@@ -15,25 +16,23 @@ function Home() {
     return (
         <div id="home">
             <Header />
-            <div className="grid-text_wide">
+            <div className="grid-expanded">
                 <h1>Individuelles Auto- und Motorrad-Fahrtraining</h1>
-                <h2>Dein persönliches Fahrtraining im Raum Landsberg am Lech, auf deine Bedürfnisse zugeschnitten.</h2>
-                <p>Du möchtest nach einer längeren Fahrpause den Wiedereinstieg schaffen?</p>
-                <p>Du hast Fahrängste, die du bewältigen möchtest?</p>
-                <p>Du bist ambitionierter Motorradfahrer und möchtest deine Fahrtechnik verfeinern?</p>
-                <p>Oder du hast ein ganz anderes Anliegen zum Thema Verkehrssicherheit?</p>
+                <h2>Persönliches Fahrtraining im Raum Landsberg am Lech,<br></br> auf deine Bedürfnisse zugeschnitten.</h2>
+            </div>
+            <div className="grid-text_wide">
+                <ul className="intro">
+                    <li>Du möchtest nach einer längeren Fahrpause den Wiedereinstieg schaffen?</li>
+                    <li>Du hast Fahrängste, die du bewältigen möchtest?</li>
+                    <li>Du bist ambitionierter Motorradfahrer und möchtest deine Fahrtechnik verfeinern?</li>
+                    <li>Oder du hast ein ganz anderes Anliegen zum Thema Verkehrssicherheit?</li>
+                </ul>
                 <p><b>Dann bist du hier genau richtig!</b></p>
                 <button>
                     <Link to="/leistungen">Komplettes Leistungsangebot ansehen</Link>
                 </button>
             </div>
-            <div className="usp-container grid-full_width">
-                <h3>Personal Coaching mit SafeRide</h3>
-                <div class="usp">Individuell</div>
-                <div class="usp">Persönlich</div>
-                <div class="usp">Flexibel</div>
-                <button className="primary" onClick={scrollToContact}>Jetzt Kontakt aufnehmen</button>
-            </div>
+            <Usp scrollToContact={scrollToContact}/>
             <div className="grid-text_wide">
                 <Contact forwardedRef={contactRef}/>
             </div>

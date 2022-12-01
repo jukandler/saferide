@@ -9,7 +9,7 @@ function Portfolio() {
             <div className="grid-text_wide">
                 <h1>Leistungen</h1>
                 <div className="disclaimer">
-                    <p><b>Hinweis: Die genauen Trainingsinhalte werden immer auf die individuellen Bedürfnisse des Kunden abgestimmt.</b></p>
+                    <p><b>Hinweis: Die genauen Trainingsinhalte werden immer auf deine individuellen Bedürfnisse abgestimmt.</b></p>
                     <p>Bei den unten aufgeführten Punkten handelt es sich um mögliche Schwerpunkte.</p>
                     <p>Auf Wunsch sind auch Trainings in Kleingruppen oder Roller-Trainings möglich.</p>
                 </div>
