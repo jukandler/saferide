@@ -5,9 +5,9 @@ import './usp.css';
 function Usp({ scrollToContact }) {
     return (
             <div className="usp-container">
-                <h3>Personal Coaching mit SafeRide</h3>
+                <h3>Dein Personal Coaching im Raum Landsberg am Lech,<br></br>genau auf deine Bedürfnisse zugeschnitten.</h3>
                 <div className="usp-wrapper grid-text_wide">
-                    <div class="usp">
+                    <div className="usp">
                         <div className="icon">
                             <MdOutlineAutoAwesome />
                         </div>
@@ -15,7 +15,7 @@ function Usp({ scrollToContact }) {
                             Individuell
                         </div>
                     </div>
-                    <div class="usp">
+                    <div className="usp">
                         <div className="icon">
                             <MdEditCalendar />
                         </div>
@@ -23,7 +23,7 @@ function Usp({ scrollToContact }) {
                             Flexibel
                         </div>
                     </div>
-                    <div class="usp">
+                    <div className="usp">
                         <div className="icon">
                             <MdTagFaces />
                         </div>

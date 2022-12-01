@@ -1,38 +1,35 @@
 header {
   position: relative;
-  margin-bottom: 80px;
 
   @media (min-width: 750px) {
-    margin-bottom: 140px;
+    position: unset;
+    height: 750px;
   }
-  
+
   .hero-image {
     width: 100vw;
-    height: 40vh;
+    height: 100vh;
     object-fit: cover;
-    object-position: center;
     max-width: 1800px;
-  
+
     @media (min-width: 750px) {
-      height: 35vh;
-      object-position: right;
+      height: 100%;
     }
   }
-  
-  .saferide-logo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+
+  .header-content {
     position: absolute;
-    bottom: -55px;
-    left: calc(50% - 75px);
-    box-shadow: 5px 5px 40px -20px #2e2e2e;
-  
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    background-color: #f0f8ff70;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 20px;
+
     @media (min-width: 750px) {
-      width: 250px;
-      height: 250px;
-      bottom: -95px;
-      left: calc(50% - 125px);
+      bottom: unset;
+      top: 420px;
     }
   }
 }

@@ -4,9 +4,8 @@ import Header from '../components/header/Header';
 function Imprint() {
     return (
         <div id="imprint">
-            <Header />
+            <Header title="Impressum"/>
             <div className="grid-text_wide">
-                <h1>Impressum</h1>
                 <section>
                     <h3>Inhaber und verantwortlich für den Inhalt:</h3>
                     <p><b>Stefan Kandler</b></p>
