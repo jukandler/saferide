@@ -67,7 +67,10 @@ function Portfolio() {
                         </p>
                         <p>
                             Mit geübteren Bikern führe ich gerne Geschicklichkeitsübungen durch oder gebe Tipps zur Verbesserung der Fahrtechnik und Notmanöver.
-                            Auf Wunsch sind auch Trainings in Kleingruppen oder Roller-Trainings möglich.
+                            Auf Wunsch sind z.B. auch Trainings in Zweiergruppen oder Roller-Trainings möglich.
+                        </p>
+                        <p>
+                            Gerne gebe ich dir auch einen Einblick in die unterschiedlichen ADAC Motorrad-Sicherheitstrainings und berate dich, ob ein solches Training sinnvoll für dich sein kann.
                         </p>
                     </div>
                     <h3>Mögliche Coaching-Schwerpunkte:</h3>

@@ -19,8 +19,9 @@ function Home() {
             <Usp scrollToContact={scrollToContact}/>
             <div className="grid-text_wide">
                 <div className="intro">
-                    <p>Du möchtest nach einer längeren Fahrpause den Wiedereinstieg schaffen oder hast Fahrängste, die du bewältigen möchtest?</p>
-                    <p>Du bist ambitionierter Motorradfahrer und möchtest deine Fahrtechnik verfeinern oder ein Schräglagentraining absolvieren?</p>
+                    <p>Du möchtest Auffrischungsstunden nehmen oder nach einer längeren Fahrpause den Wiedereinstieg schaffen?</p>
+                    <p>Du hast Fahrängste, die du bewältigen möchtest, oder leidest unter gesundheitlichen oder altersbedingten Einschränkungen?</p>
+                    <p>Du bist ambitionierter Motorradfahrer und möchtest deine Fahrtechnik verfeinern oder mehr Sicherheit beim Kurvenfahren gewinnen?</p>
                     <p>Oder du hast ein ganz anderes Anliegen zum Thema Verkehrssicherheit?</p>
                     <p><b>Dann bist du hier genau richtig!</b></p>
                     <button>
