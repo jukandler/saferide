@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.a35c277f.css",
-    "main.js": "/static/js/main.35874d01.js",
+    "main.css": "/static/css/main.829001c0.css",
+    "main.js": "/static/js/main.754f122a.js",
     "static/js/787.29194250.chunk.js": "/static/js/787.29194250.chunk.js",
+    "static/media/hero_home.jpg": "/static/media/hero_home.e686fb1e6b2ce96ff634.jpg",
+    "static/media/hero_portfolio.jpg": "/static/media/hero_portfolio.3d1774883e00ac2e6e46.jpg",
     "static/media/stefan_motorrad.jpeg": "/static/media/stefan_motorrad.d846dfb75e85f00963d4.jpeg",
     "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
     "static/media/OpenSans-Bold.ttf": "/static/media/OpenSans-Bold.fa428cdd2e334e2be904.ttf",
@@ -11,12 +13,12 @@
     "static/media/navbar-logo.jpg": "/static/media/navbar-logo.146d4648cf13faa347b6.jpg",
     "static/media/whatsapp_logo.png": "/static/media/whatsapp_logo.c387e7a1e0e0a9a2108e.png",
     "index.html": "/index.html",
-    "main.a35c277f.css.map": "/static/css/main.a35c277f.css.map",
-    "main.35874d01.js.map": "/static/js/main.35874d01.js.map",
+    "main.829001c0.css.map": "/static/css/main.829001c0.css.map",
+    "main.754f122a.js.map": "/static/js/main.754f122a.js.map",
     "787.29194250.chunk.js.map": "/static/js/787.29194250.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a35c277f.css",
-    "static/js/main.35874d01.js"
+    "static/css/main.829001c0.css",
+    "static/js/main.754f122a.js"
   ]
 }
