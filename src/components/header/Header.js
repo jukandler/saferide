@@ -1,6 +1,6 @@
 import './header.css';
 
-function Header({ title, imageWidth, image = "https://images.unsplash.com/photo-1596649714492-a8f90ecb3776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3570&q=80" }) {
+function Header({ title, imageWidth, image }) {
 
     return (
         <header class={`${imageWidth ? `image-width-${imageWidth}` : ""}`}>

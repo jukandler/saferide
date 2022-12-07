@@ -4,6 +4,7 @@ import Contact from '../components/contact/Contact';
 import { Link } from 'react-router-dom';
 import { useRef } from 'react';
 import Usp from '../components/usp/Usp';
+import heroHome from '../assets/hero_home.jpg';
 
 function Home() {
 
@@ -15,7 +16,7 @@ function Home() {
 
     return (
         <div id="home">
-            <Header title="Individuelles Auto- und Motorrad-Fahrtraining"/>
+            <Header title="Individuelles Auto- und Motorrad-Fahrtraining" image={heroHome}/>
             <Usp scrollToContact={scrollToContact}/>
             <div className="grid-text_wide">
                 <div className="intro">
