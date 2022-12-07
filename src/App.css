@@ -141,21 +141,11 @@ button {
     align-items: center;
     
     @media (min-width: 750px) {
-      &.image-left {
         flex-direction: row;
 
         .portrait-image {
-          margin-right: 40px;
-        }
-      }
-      
-      &.image-right {
-        flex-direction: row-reverse;
-        
-        .portrait-image {
           margin-left: 40px;
         }
-      }
     }
     
     p {

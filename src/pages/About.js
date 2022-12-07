@@ -11,12 +11,19 @@ function About() {
             <Header title="Dein Fahrtrainer" image={stefanPortrait} imageWidth="limited"/>
             <div className="grid-text_wide">
                 <h2>Hallo, ich bin Stefan!</h2>
-                <section  className="introduction image-left">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <section  className="introduction">
+                    <p>Als leidenschaftlicher Fahrlehrer, Radsportler und Motorradfahrer kenne ich den Straßenverkehr aus den verschiedensten Blickwinkeln. Aus meiner über 20-jährigen Erfahrung als Sicherheitstrainer und Fahrlehrer und durch meine Freude am Coaching entstand die Idee, beides zu kombinieren und mich auf das Coaching bzw. Personal Training für Auto- und Motorradfahrer zu spezialisieren.</p>
                 </section>
-                <section  className="introduction image-right">
+                <section  className="introduction">
+                    <p>
+                        Bereits im Jugendalter begeisterte ich mich für Mobilität in jeglicher Form. Schnell machte ich alle Führerscheine in Folge und bereits mit 21 Jahren hatte ich mit dem Busführerschein die letzte Klasse in der Tasche. Kurz darauf absolvierte ich die Ausbildung zum Berufskraftfahrer bei der Dekra-Akademie in Augsburg. Als 25 jähriger machte ich 1993 dann die Fahrlehrer-Ausbildung für alle Führerscheinklassen und bildete bei der Bundeswehr im Schwerpunkt LKW und Bus Fahrschüler aus.
+                    </p>
                     <img className="portrait-image" src={stefanMotorrad} alt="portrait fahrlehrer"></img>
-                    <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </section>
+                <section className="introduction">
+                    <p>
+                        Im Jahr 2000 machte ich die Ausbildung zum Sicherheitstrainer und arbeitete anfangs bei der Landesverkehrswacht Bayern und später auch im Auftrag vom ADAC als Trainer für PKW und Motorrad. Zusätzlich bin ich regelmäßig bei der Fahrschule Mayr als Auto- und Motorradfahrlehrer tätig.
+                    </p>
                 </section>
                 <Contact />
             </div>
