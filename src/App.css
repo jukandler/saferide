@@ -51,6 +51,10 @@ button {
   display: block;
   margin: 20px auto;
   transition: all 0.2s ease 0s;
+  
+  @media (min-width: 705px) {
+    margin: 20px 10px;
+  }
 
   a {
     color: #356C77;
