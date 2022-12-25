@@ -39,6 +39,7 @@ b {
 
 button {
   border: 2px solid #356C77;
+  color: #356C77;
   background: white;
   font-family: "OpenSansSemiBold";
   text-transform: uppercase;

@@ -8,6 +8,7 @@ function Portfolio() {
     const carRef = useRef(null);
     const motorbikeRef = useRef(null);
     const theorieRef = useRef(null);
+    const fitnessCheckRef = useRef(null);
 
     return (
         <div id="portfolio">
@@ -19,6 +20,7 @@ function Portfolio() {
                         <button onClick={() => carRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>Auto Fahrtraining</button>
                         <button onClick={() => motorbikeRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>Motorrad Fahrtraining</button>
                         <button onClick={() => theorieRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>Schulung Theorie</button>
+                        <button onClick={() => fitnessCheckRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>ADAC Fahr-Fitness-Check</button>
                     </div>
                 </div>
                 <div className="grid-text_wide disclaimer">
@@ -67,7 +69,7 @@ function Portfolio() {
                             Falls du Späteinsteiger bist und gerade überlegst, den Motorradführerschein zu machen, habe ich wertvolle Tipps und Hinweise parat. 
                         </p>
                         <p>
-                            Mit geübteren Bikern führe ich gerne Geschicklichkeitsübungen durch oder gebe Tipps zur Verbesserung der Fahrtechnik und Notmanöver.
+                            Mit geübteren Bikern führe ich gerne Geschicklichkeitsübungen durch oder gebe Tipps zur Verbesserung der Fahrtechnik, insbesondere Kurventechnik und Notmanöver. Ich begleite natürlich mit meinem Motorrad, kann alle Übungen und Techniken vorfahren und über Funk direktes Feedback geben. 
                             Auf Wunsch sind z.B. auch Trainings in Zweiergruppen oder Roller-Trainings möglich.
                         </p>
                         <p>
@@ -119,6 +121,22 @@ function Portfolio() {
                         <li>Gehören die besseren Reifen wirklich auf die angetriebene Achse?</li>
                         <li>Darf ich bei Aquaplaning oder in einer Kurve stark bremsen?</li>
                         <li>uvm...</li>
+                    </div>
+                </section>
+                <section className="portfolio-section">
+                    <h2 ref={fitnessCheckRef}>ADAC Fahr-Fitness-Check</h2>
+                    <div className="description">
+                        <p>
+                            Der Fahr-Fitness-Check richtet sich an ältere, noch regelmäßig Auto fahrende Personen, die zusammen mit speziell durch den ADAC qualifizierten Fahrlehrinnen und Fahrlehrern ihre momentanen persönlichen Fahrfertigkeiten bewerten möchten - kompetent, neutral und ohne Risiko für den Führerschein.
+                        </p>
+                        <p>
+                            Weitere Infos zum Fahr-Fitness-Check sind auf diesem Flyer zu finden:
+                        </p>
+                        <p>
+                            <a href="https://assets.adac.de/image/upload/v1654159908/ADAC-eV/KOR/Text/PDF/2022-05_VSP_FLY_Fahrfitness-Check_05_22_42_g250nm.pdf" target="_blank" rel="noopener noreferrer">
+                                &gt; Flyer ADAC Fahr-Fitness-Check
+                            </a>
+                        </p>
                     </div>
                 </section>
                 <Contact />
