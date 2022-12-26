@@ -22,19 +22,19 @@ function Pricing() {
                     </table>
                     <p style={{textAlign: "left"}}>
                         In der Regel werden die Auto-Trainings mit dem eigenen KFZ meiner Kund*innen durchgeführt. Auf Anfrage ist es aber auch möglich, mit einem Fahrschulfahrzeug zu fahren.
-                        In diesem Fall fällt pro Stunde eine zusätzliche Gebühr von 15€ an.
+                        In diesem Fall fällt läuft die Rechnungsstellung über die Fahrschule und orientiert sich am aktuellen Fahrstundenpreis.
                     </p>
                 </section>
                 <section>
-                    <h2>Trainings in Zweiergruppen oder größeren Gruppen</h2>
+                    <h2>Trainings in Zweiergruppen</h2>
                     <p style={{textAlign: "left"}}>
-                        Preise für Trainings in Zweiergruppen oder größeren Gruppen auf Anfrage.
+                        Neben Einzel-Trainings sind auch Trainings in Zweiergruppen möglich, Preise auf Anfrage.
                     </p>
                 </section>
                 <section>
                     <h2>Schulung Theorie</h2>
                     <p style={{textAlign: "left"}}>
-                        Presie für Theorie-Unterrichte varrieren je nach Dauer, Umfang und Teilnehmerzahl. Bei Interesse bitte einfach Kontakt aufnehmen.
+                        Preise für Theorie-Unterrichte variieren je nach Dauer, Umfang und Teilnehmerzahl. Bei Interesse bitte einfach Kontakt aufnehmen.
                     </p>
                 </section>
                 <Contact />
