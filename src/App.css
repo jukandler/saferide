@@ -52,10 +52,6 @@ button {
   margin: 20px auto;
   transition: all 0.2s ease 0s;
   font-size: 15px;
-  
-  @media (min-width: 705px) {
-    margin: 20px 10px;
-  }
 
   a {
     color: #356C77;
@@ -206,6 +202,14 @@ button {
   .selection {
     @media (min-width: 750px) {
       display: flex;
+    }
+  }
+
+  button {
+    margin: 0 auto;
+
+    @media (min-width: 705px) {
+      margin: 20px 10px;
     }
   }
 
