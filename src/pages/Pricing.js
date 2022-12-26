@@ -28,7 +28,7 @@ function Pricing() {
                 <section>
                     <h2>Trainings in Zweiergruppen</h2>
                     <p style={{textAlign: "left"}}>
-                        Neben Einzel-Trainings sind auch Trainings in Zweiergruppen möglich, Preise auf Anfrage.
+                        Neben Einzel-Trainings sind auch Trainings in Zweiergruppen und Rollertrainings möglich, Preise auf Anfrage.
                     </p>
                 </section>
                 <section>
