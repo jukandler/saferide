@@ -108,14 +108,18 @@ function Portfolio() {
                     <div className="section-topics align-left">
                         <p><b>Unter anderem werden folgende Fragen geklärt:</b></p>
                         <li>Sind Kopfhörer beim Radfahren wirklich verboten?</li>
+                        <li>Dürfen Radfahrer nebeneinander fahren?</li>
+                        <li>Kann ich den Alkohol- oder Drogentest bei einer Polizeikontrolle verweigern?</li>
+                        <li>Darf ich die Nebelschlußleuchte auch bei Regen oder Schneefall einschalten?</li>
+                        <li>Wie muss ich mich bei Bussen mit Warnblinklicht verhalten?</li>
+                        <li>Worin liegt der Unterschied zwischen "grünem Pfeil" (Leuchtpfeil)" und "Grünpfeil" (Blechschild)?</li>
+                        <li>Gibt es neben der 0,5-Promille-Grenze noch weitere Promillegrenzen?</li>
                         <li>Darf ich mit abgelaufenem TÜV fahren?</li>
-                        <li>Ist rechts überholen auf der Autobahn immer verboten?</li>
                         <li>Gilt auf Parkplätzen rechts vor links?</li>
                         <li>Reicht es, bei einem Parkrempler einen Zettel zu hinterlassen?</li>
                         <li>Darf man wegen Wild auf der Fahrbahn stark bremsen?</li>
                         <li>Ist Fahren mit Flip Flops oder barfuß verboten?</li>
                         <li>Darf man bei verletzten Motorradfahrern den Helm abnehmen?</li>
-                        <li>Dürfen auf dem Radweg Fahrende knapper überholt werden?</li>
                         <li>Schadet untertourig fahren dem Motor?</li>
                         <li>Darf man mit dem Fahrrad alkoholisiert fahren?</li>
                         <li>Gehören die besseren Reifen wirklich auf die angetriebene Achse?</li>

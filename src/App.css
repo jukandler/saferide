@@ -238,7 +238,18 @@ button {
       }
 
       li {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
+        position: relative;
+        padding-left: 15px;
+        list-style-type: none;
+        
+        &::before {
+          content: "•";
+          position: absolute;
+          left: 0;
+          top: -2px;
+          font-size: 25px;
+        }
       }
     }
   }
