@@ -25,7 +25,7 @@ function Home() {
                     <p>Du bist ambitionierter Motorradfahrer und möchtest deine Fahrtechnik verfeinern oder mehr Sicherheit beim Kurvenfahren gewinnen?</p>
                     <p>Oder du hast ein ganz anderes Anliegen zum Thema Verkehrssicherheit?</p>
                     <p><b>Dann bist du hier genau richtig!</b></p>
-                    <button>
+                    <button className="primary">
                         <Link to="/leistungen">Komplettes Leistungsangebot ansehen</Link>
                     </button>
                 </div>

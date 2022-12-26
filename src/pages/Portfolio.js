@@ -17,10 +17,10 @@ function Portfolio() {
                 <div className="grid-expanded">
                     <h2>Für welchen Schwerpunkt interessierst du dich?</h2>
                     <div className="selection">
-                        <button onClick={() => carRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>Auto Fahrtraining</button>
-                        <button onClick={() => motorbikeRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>Motorrad Fahrtraining</button>
-                        <button onClick={() => theorieRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>Schulung Theorie</button>
-                        <button onClick={() => fitnessCheckRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>ADAC Fahr-Fitness-Check</button>
+                        <button className="primary" onClick={() => carRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>Auto Fahrtraining</button>
+                        <button className="primary" onClick={() => motorbikeRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>Motorrad Fahrtraining</button>
+                        <button className="primary" onClick={() => theorieRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>Schulung Theorie</button>
+                        <button className="primary" onClick={() => fitnessCheckRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>ADAC Fahr-Fitness-Check</button>
                     </div>
                 </div>
                 <div className="grid-text_wide disclaimer">

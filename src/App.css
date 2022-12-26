@@ -51,6 +51,7 @@ button {
   display: block;
   margin: 20px auto;
   transition: all 0.2s ease 0s;
+  font-size: 15px;
   
   @media (min-width: 705px) {
     margin: 20px 10px;
@@ -175,6 +176,24 @@ button {
     padding: 40px 0;
     p {
     }
+  }
+}
+
+#pricing {
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+
+  td {
+    border: 1px solid #2e2e2e;
+    padding: 10px 50px;
+  }
+}
+
+#vouchers {
+  img {
+    width: 100%;
   }
 }
 

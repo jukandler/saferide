@@ -12,6 +12,8 @@ import ScrollToTop from "./helpers/scrollToTopl";
 import Portfolio from "./pages/Portfolio";
 import NavBar from "./components/navbar/Navbar";
 import About from "./pages/About";
+import Pricing from "./pages/Pricing";
+import Vouchers from "./pages/Vouchers";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="/impressum" element={<Imprint/>} />
           <Route path="/leistungen" element={<Portfolio/>} />
           <Route path="/trainer" element={<About/>} />
+          <Route path="/preise" element={<Pricing/>} />
+          <Route path="/gutscheine" element={<Vouchers/>} />
         </Routes>
       </HashRouter>
     </div>
