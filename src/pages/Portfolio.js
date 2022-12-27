@@ -54,7 +54,7 @@ function Portfolio() {
                     </div>
                     <div className="section-topics align-left">
                         <li>Wichtige Grundkenntnisse über Fahrzeug und Mechanik</li>
-                        <li>Richtige Vorbereitubng vor der Fahrt inkl. Sitzposotion und co.</li>
+                        <li>Richtige Vorbereitung vor der Fahrt inkl. Sitzposition und co.</li>
                         <li>Neues Fahrzeug / Assistenzsysteme kennenlernen</li>
                     </div>
                     <div className="section-topics align-left">
@@ -131,7 +131,7 @@ function Portfolio() {
                     <h2 ref={fitnessCheckRef}>ADAC Fahr-Fitness-Check</h2>
                     <div className="description">
                         <p>
-                            Der Fahr-Fitness-Check richtet sich an ältere, noch regelmäßig Auto fahrende Personen, die zusammen mit speziell durch den ADAC qualifizierten Fahrlehrinnen und Fahrlehrern ihre momentanen persönlichen Fahrfertigkeiten bewerten möchten - kompetent, neutral und ohne Risiko für den Führerschein.
+                            Der Fahr-Fitness-Check ist ein speziell vom ADAC konzipiertes Programm, das bei mir als Trainer absolviert werden kann. Das Programm richtet sich an ältere, noch regelmäßig Auto fahrende Personen, die zusammen mit speziell durch den ADAC qualifizierten Fahrlehrinnen und Fahrlehrern ihre momentanen persönlichen Fahrfertigkeiten bewerten möchten - kompetent, neutral und ohne Risiko für den Führerschein.
                         </p>
                         <p>
                             Weitere Infos zum Fahr-Fitness-Check sind auf diesem Flyer zu finden:

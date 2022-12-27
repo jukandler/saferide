@@ -22,7 +22,7 @@ function Pricing() {
                     </table>
                     <p style={{textAlign: "left"}}>
                         In der Regel werden die Auto-Trainings mit dem eigenen KFZ meiner Kund*innen durchgeführt. Auf Anfrage ist es aber auch möglich, mit einem Fahrschulfahrzeug zu fahren.
-                        In diesem Fall fällt läuft die Rechnungsstellung über die Fahrschule und orientiert sich am aktuellen Fahrstundenpreis.
+                        In diesem Fall läuft die Rechnungsstellung über die Fahrschule und orientiert sich am aktuellen Fahrstundenpreis.
                     </p>
                 </section>
                 <section>
