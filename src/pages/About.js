@@ -22,7 +22,7 @@ function About() {
                 </section>
                 <section className="introduction">
                     <p>
-                        Im Jahr 2000 machte ich die Ausbildung zum Sicherheitstrainer und arbeitete anfangs bei der Landesverkehrswacht Bayern und inzwischen auch beim ADAC als Trainer für PKW und Motorrad. Zusätzlich bin ich regelmäßig bei der Fahrschule Mayr in Landsberg als Auto-, LKW-, und Motorradfahrlehrer tätig. Des Weiteren unterrichte ich in der Volkshochschule sowie interessierten Gruppen über Verkehrsregeln, Änderungen in der Straßenverkehrsordung und Fahrsicherheit.
+                        Im Jahr 2000 machte ich die Ausbildung zum Sicherheitstrainer und arbeitete anfangs bei der Landesverkehrswacht Bayern und inzwischen auch beim <a className="linkout" href="https://www.adac-fahrtraining.de/" target="_blank" rel="noopener noreferrer">ADAC</a> als Trainer für PKW und Motorrad. Zusätzlich bin ich regelmäßig bei der <a className="linkout" href="https://www.fahrschule-mayr.de/" target="_blank" rel="noopener noreferrer">Fahrschule Mayr</a> in Landsberg als Auto-, LKW-, und Motorradfahrlehrer tätig. Des Weiteren unterrichte ich in der Volkshochschule sowie interessierten Gruppen über Verkehrsregeln, Änderungen in der Straßenverkehrsordung und Fahrsicherheit.
                     </p>
                 </section>
                 <Contact />

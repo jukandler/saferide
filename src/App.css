@@ -26,6 +26,10 @@ a {
   text-decoration: none;
 }
 
+a.linkout {
+  text-decoration: underline;
+}
+
 h1 {
   color: #21434a;
   font-family: "OpenSansBold";
