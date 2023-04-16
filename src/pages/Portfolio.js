@@ -56,6 +56,7 @@ function Portfolio() {
                         <li>Wichtige Grundkenntnisse über Fahrzeug und Mechanik</li>
                         <li>Richtige Vorbereitung vor der Fahrt inkl. Sitzposition und co.</li>
                         <li>Neues Fahrzeug / Assistenzsysteme kennenlernen</li>
+                        <li>Beratung und Tipps zum Thema MPU</li>
                     </div>
                     <div className="section-topics align-left">
                         <li>Sicheres Fahren mit Wohnmobil, Wohnwagen oder Anhänger</li>
