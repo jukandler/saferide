@@ -1,10 +1,6 @@
 header {
   position: relative;
-
-  @media (min-width: 750px) {
-    position: unset;
-    height: 750px;
-  }
+  height: 100vh;
 
   .hero-image {
     width: 100vw;
@@ -35,11 +31,6 @@ header {
     backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 20px;
-
-    @media (min-width: 750px) {
-      bottom: unset;
-      top: 420px;
-    }
   }
 }
 
