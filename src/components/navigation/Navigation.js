@@ -5,13 +5,9 @@ import WhatsappIcon from "../../assets/icons/whatsapp.png";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../Logo/Logo';
-import { useLocation } from 'react-router-dom'
 import MenuToCloseIcon from '../MenuToCloseIcon/MenuToCloseIcon';
 
 function Navigation() {
-    const location = useLocation();
-    const menuIconColor = location.pathname === "/" ? "#FFFFFF" : "#6A5744";
-
     const [isOpen, setIsOpen] = useState(false);
 
     const handleClick = () => setIsOpen(!isOpen);
@@ -21,17 +17,17 @@ function Navigation() {
     return (
         <nav>
             <div className="navbar-icon" onClick={handleClick}>
-                <MenuToCloseIcon color={menuIconColor} isOpen={isOpen}/>
+                <MenuToCloseIcon isOpen={isOpen}/>
             </div>
             <div className="sticky-navbar">
                 <div className="action-icons grid-text_wide">
-                    <a href="tel:+4369910553435">
+                    <a href="tel:+4915201996436">
                         <img src={CallIcon} alt="Anrufen"/>
                     </a>
-                    <Link to="/anfrage">
+                    <a href="mailto:ks@kskandler.de">
                         <img src={MailIcon} onClick={closeMenu} alt="E-Mail schicken"/>
-                    </Link>
-                    <a href="https://wa.me/4369910553435" target="_blank" rel="noopener noreferrer">
+                    </a>
+                    <a href="https://wa.me/4915201996436" target="_blank" rel="noopener noreferrer">
                         <img src={WhatsappIcon} alt="Whatsapp schicken"/>
                     </a>
                 </div>
@@ -40,12 +36,11 @@ function Navigation() {
                 <Logo onClick={closeMenu} />
                 <div className="navigation-menu__links">
                     <Link to="/" onClick={handleClick}>Startseite</Link>
-                    <Link to="/ferienwohnung" onClick={handleClick}>Ferienwohnung</Link>
-                    <Link to="/wieserhof" onClick={handleClick}>Der Wieserhof</Link>
-                    <Link to="/oetztal" onClick={handleClick}>Das Ötztal</Link>
-                    <Link to="/anfahrt" onClick={handleClick}>Anfahrt</Link>
+                    <Link to="/leistungen" onClick={handleClick}>Leistungen</Link>
+                    <Link to="/trainer" onClick={handleClick}>Trainer</Link>
                     <Link to="/preise" onClick={handleClick}>Preise</Link>
-                    <Link to="/anfrage" onClick={handleClick}>Anfrage senden</Link>
+                    <Link to="/gutscheine" onClick={handleClick}>Gutscheine</Link>
+                    <Link to="/impressum" onClick={handleClick}>Impressum</Link>
                 </div>
             </div>}
         </nav>

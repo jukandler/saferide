@@ -22,7 +22,7 @@
 h2,
 h3,
 a {
-  color: #356C77;
+  color: var(--color-accent);
   text-decoration: none;
 }
 
@@ -42,8 +42,8 @@ b {
 }
 
 button {
-  border: 2px solid #356C77;
-  color: #356C77;
+  border: 2px solid var(--color-accent);
+  color: var(--color-accent);
   background: white;
   font-family: "OpenSansSemiBold";
   text-transform: uppercase;
@@ -58,11 +58,11 @@ button {
   font-size: 15px;
 
   a {
-    color: #356C77;
+    color: var(--color-accent);
   }
 
   &:hover {
-    background: #356C77;
+    background: var(--color-accent);
     color: white;
 
     a {
@@ -71,7 +71,7 @@ button {
   }
 
   &.primary {
-    background: #356C77;
+    background: var(--color-accent);
     color: white;
 
     a {
@@ -80,10 +80,10 @@ button {
 
     &:hover {
       background: white;
-      color: #356C77;
+      color: var(--color-accent);
 
       a {
-        color: #356C77;
+        color: var(--color-accent);
       }
     }
   }
@@ -92,12 +92,11 @@ button {
 .App {
   font-family: "OpenSans";
   text-align: center;
-  background-color: aliceblue;
-  color: #2e2e2e;
   min-height: 100vh;
   box-sizing: border-box; 
   position: relative;
   font-size: 18px;
+  padding-bottom: 100px;
 
   @media (min-width: 750px) {
     font-size: 20px;

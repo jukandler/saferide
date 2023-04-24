@@ -1,4 +1,3 @@
-import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 import heroVouchers from '../assets/hero_vouchers.jpg';
 
@@ -21,7 +20,6 @@ function Vouchers() {
                     <img src={voucherCar} alt="Gutschein Auto Fahrtraining" />
                     <img src={voucherBike} alt="Gutschein Motorrad Fahrtraining" />
             </div>
-            <Footer />
         </div>
     )
 }

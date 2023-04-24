@@ -25,7 +25,7 @@ nav {
 
     .sticky-navbar {
         height: 50px;
-        background-color: var(--color-secondary);
+        background-color: var(--color-accent);
         position: fixed;
         z-index: 10;
         bottom: 0;
@@ -58,7 +58,7 @@ nav {
         left: 0;
         bottom: 0;
         right: 0;
-        background-color: var(--color-secondary);
+        background-color: var(--color-accent);
         z-index: 5;
         transition: all 0.2s ease 0s;
         animation: 0.2s ease-in open-menu;
@@ -87,14 +87,14 @@ nav {
 
         a {
             /* font-family: "CrimsonPro"; */
-            font-size: 28px;
+            font-size: 25px;
             color: white;
             display: block;
             margin: 20px 0;
             text-align: center;
             
             @media (min-width: 750px) {
-                font-size: 40px;
+                font-size: 30px;
                 margin: 50px 0;
             }
         }
