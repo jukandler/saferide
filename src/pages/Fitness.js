@@ -10,7 +10,7 @@ function Fitness() {
             <div className="grid-text_wide">
                 <section>
                     <h2>ADAC Fahr-Fitness-Check</h2>
-                    <div className="description">
+                    <div>
                         <h3>Weil Mobilität keine Frage des Alters ist</h3>
                         <b>Sicherheit beim Autofahren, insbesondere im Alter, hat höchste Priorität.</b>
                         <p>

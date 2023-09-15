@@ -16,7 +16,7 @@ function About() {
                     <p>
                         Bereits im Jugendalter begeisterte ich mich für Mobilität in jeglicher Form. Schnell machte ich alle Führerscheine in Folge und bereits mit 21 Jahren hatte ich mit dem Busführerschein die letzte Klasse in der Tasche. Kurz darauf absolvierte ich die Ausbildung zum Berufskraftfahrer bei der Dekra-Akademie in Augsburg. Als 25 jähriger machte ich 1993 dann die Fahrlehrer-Ausbildung für alle Führerscheinklassen und bildete bei der Bundeswehr im Schwerpunkt LKW und Bus Fahrschüler aus.
                     </p>
-                    <img className="portrait-image" src={stefanMotorrad} alt="portrait fahrlehrer"></img>
+                    <img className="content-image square" src={stefanMotorrad} alt="portrait fahrlehrer"></img>
                 </section>
                 <section className="introduction">
                     <p>

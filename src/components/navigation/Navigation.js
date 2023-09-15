@@ -42,7 +42,8 @@ function Navigation() {
                     <Link to="/coaching" onClick={handleClick}>Fahrtraining / Coaching</Link>
                     <Link to="/fahr-fitness-check" onClick={handleClick}>Fahr-Fitness-Check</Link>
                     <Link to="/trainer" onClick={handleClick}>Trainer</Link>
-                    <Link to="/preise" onClick={handleClick}>Preise</Link>
+                    <Link to="/kunden" onClick={handleClick}>Erfahrungsberichte</Link>
+                    <Link to="/preise" onClick={handleClick}>Preisübersicht</Link>
                     <Link to="/gutscheine" onClick={handleClick}>Gutscheine</Link>
                 </div>
             </div>}

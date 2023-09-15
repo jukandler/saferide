@@ -26,7 +26,7 @@ function Coaching() {
             <div className="grid-text_wide">
                 <section>
                     <h2 ref={carRef}>Auto Fahrtraining</h2>
-                    <div className="description">
+                    <div>
                         <p>
                             Im Bereich PKW-Coaching gebe ich vor allem Auffrischungsstunden, Schulung von Senior*innen und Fahrtraining für Kund*innen mit Ängsten oder sonstigen Einschränkungen. 
                             Auch Fragen zum besseren Kennenlernen des eigenen Fahrzeugs mit den umfangreichen Assistenzsystemen beantworte ich sehr gerne. 
@@ -60,7 +60,7 @@ function Coaching() {
                 </section>
                 <section>
                     <h2 ref={motorbikeRef}>Motorrad Fahrtraining</h2>
-                    <div className="description">
+                    <div>
                         <p>
                             Im Bereich Motorrad-Coaching begleite ich öfter ehemalige Fahrschüler, aber auch als Wiedereinsteiger nach längerer Fahrpause bist du bei mir an der richtigen Adresse. 
                             Falls du Späteinsteiger bist und gerade überlegst, den Motorradführerschein zu machen, habe ich wertvolle Tipps und Hinweise parat. 
@@ -92,7 +92,7 @@ function Coaching() {
                 </section>
                 <section>
                     <h2 ref={theorieRef}>Schulung Theorie</h2>
-                    <div className="description">
+                    <div>
                         <p>
                             Die Straßenverkehrsordnung, Verkehrsregeln und Verkehrsrecht sind meine Spezialgebiete. Durch regelmäßige Unterrichte in den verschiedenen Führerscheinklassen und Bereichen der Feuerwehr und Berufskraftfahrer, Aus- und Weiterbildungen bleibe ich mit meinem Wissen ständig am Ball. 
                             Aus diesen Schulungen und den regelmäßigen Kontakt zu unterschiedlichsten Verkehrsteilnehmern kenne ich die Defizite und Wissenslücken vieler Verkehrsteilnehmer. 

@@ -17,6 +17,7 @@ import Pricing from "./pages/Pricing";
 import Vouchers from "./pages/Vouchers";
 import Footer from "./components/footer/footer";
 import Fitness from "./pages/Fitness";
+import Testimonials from "./pages/Testimonials";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/impressum" element={<Imprint/>} />
           <Route path="/coaching" element={<Coaching/>} />
           <Route path="/fahr-fitness-check" element={<Fitness/>} />
+          <Route path="/kunden" element={<Testimonials/>} />
           <Route path="/trainer" element={<About/>} />
           <Route path="/preise" element={<Pricing/>} />
           <Route path="/gutscheine" element={<Vouchers/>} />
