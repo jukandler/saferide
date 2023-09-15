@@ -1,22 +1,14 @@
 import Header from '../components/header/Header';
-import Contact from '../components/contact/Contact';
 import { Link } from 'react-router-dom';
-import { useRef } from 'react';
 import Usp from '../components/usp/Usp';
 import heroHome from '../assets/hero_home.jpg';
 
 function Home() {
 
-    const contactRef = useRef(null);
-
-    const scrollToContact = () => {
-        contactRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-
     return (
         <div id="home">
             <Header title="Individuelles Auto- und Motorrad-Fahrtraining" image={heroHome} showLogo={true} />
-            <Usp scrollToContact={scrollToContact}/>
+            <Usp />
             <div className="grid-text_wide">
                 <div className="intro">
                     <p>Du möchtest Auffrischungsstunden nehmen oder nach einer längeren Fahrpause den Wiedereinstieg schaffen?</p>
@@ -28,9 +20,6 @@ function Home() {
                         <Link to="/leistungen">Komplettes Leistungsangebot ansehen</Link>
                     </button>
                 </div>
-            </div>
-            <div className="grid-text_wide">
-                <Contact forwardedRef={contactRef}/>
             </div>
         </div>
     )

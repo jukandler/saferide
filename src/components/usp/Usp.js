@@ -2,7 +2,7 @@ import { MdOutlineAutoAwesome, MdTagFaces, MdEditCalendar } from "react-icons/md
 
 import './usp.css';
 
-function Usp({ scrollToContact }) {
+function Usp() {
     return (
             <div className="usp-container">
                 <h3>Dein Personal Coaching im Raum Landsberg am Lech,<br></br>genau auf deine Bedürfnisse zugeschnitten.</h3>
@@ -32,7 +32,6 @@ function Usp({ scrollToContact }) {
                         </div>
                     </div>
                 </div>
-                <button className="primary" onClick={scrollToContact}>Jetzt Kontakt aufnehmen</button>
             </div>
     )
 }

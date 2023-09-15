@@ -1,4 +1,3 @@
-import Contact from '../components/contact/Contact';
 import Header from '../components/header/Header';
 import heroPricing from '../assets/hero_pricing.jpg';
 
@@ -36,7 +35,6 @@ function Pricing() {
                         Preise für Theorie-Unterrichte variieren je nach Dauer, Umfang und Teilnehmerzahl. Bei Interesse bitte einfach Kontakt aufnehmen.
                     </p>
                 </section>
-                <Contact />
             </div>
         </div>
     )

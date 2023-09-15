@@ -15,6 +15,7 @@ import Navigation from "./components/navigation/Navigation";
 import About from "./pages/About";
 import Pricing from "./pages/Pricing";
 import Vouchers from "./pages/Vouchers";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/preise" element={<Pricing/>} />
           <Route path="/gutscheine" element={<Vouchers/>} />
         </Routes>
+        <Footer />
       </HashRouter>
     </div>
   );

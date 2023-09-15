@@ -43,7 +43,6 @@ function Navigation() {
                     <Link to="/trainer" onClick={handleClick}>Trainer</Link>
                     <Link to="/preise" onClick={handleClick}>Preise</Link>
                     <Link to="/gutscheine" onClick={handleClick}>Gutscheine</Link>
-                    <Link to="/impressum" onClick={handleClick}>Impressum</Link>
                 </div>
             </div>}
         </nav>

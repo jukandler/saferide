@@ -1,4 +1,3 @@
-import Contact from '../components/contact/Contact';
 import Header from '../components/header/Header';
 
 import stefanMotorrad from '../assets/stefan_motorrad.jpeg';
@@ -24,7 +23,6 @@ function About() {
                         Im Jahr 2000 machte ich die Ausbildung zum Sicherheitstrainer und arbeitete anfangs bei der Landesverkehrswacht Bayern und inzwischen auch beim <a className="linkout" href="https://www.adac-fahrtraining.de/" target="_blank" rel="noopener noreferrer">ADAC</a> als Trainer für PKW und Motorrad. Zusätzlich bin ich regelmäßig bei der <a className="linkout" href="https://www.fahrschule-mayr.de/" target="_blank" rel="noopener noreferrer">Fahrschule Mayr</a> in Landsberg als Auto-, LKW-, und Motorradfahrlehrer tätig. Des Weiteren unterrichte ich in der Volkshochschule sowie interessierten Gruppen über Verkehrsregeln, Änderungen in der Straßenverkehrsordung und Fahrsicherheit.
                     </p>
                 </section>
-                <Contact />
             </div>
         </div>
     )

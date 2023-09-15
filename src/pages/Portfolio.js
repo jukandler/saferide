@@ -1,5 +1,4 @@
 import { useRef } from 'react';
-import Contact from '../components/contact/Contact';
 import Header from '../components/header/Header';
 import heroPortfolio from '../assets/hero_portfolio.jpg';
 
@@ -143,7 +142,6 @@ function Portfolio() {
                         </p>
                     </div>
                 </section>
-                <Contact />
             </div>
         </div>
     )
