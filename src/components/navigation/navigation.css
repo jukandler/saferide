@@ -40,6 +40,10 @@ nav {
 
             a {
                 display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 48px;
+                width: 48px;
             }
 
             img {
@@ -86,16 +90,16 @@ nav {
         }
 
         a {
-            /* font-family: "CrimsonPro"; */
             font-size: 25px;
             color: white;
             display: block;
-            margin: 20px 0;
+            margin: 15px 0;
             text-align: center;
+            height: 48px;
             
             @media (min-width: 750px) {
                 font-size: 30px;
-                margin: 50px 0;
+                margin: 25px 0;
             }
         }
     }
