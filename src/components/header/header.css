@@ -7,6 +7,10 @@ header {
     height: 45vh;
   }
 
+  .logo-container {
+    top: 100px;
+  }
+
   .hero-image {
     width: 100vw;
     height: 100vh;

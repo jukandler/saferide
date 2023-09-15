@@ -15,7 +15,7 @@ function Home() {
 
     return (
         <div id="home">
-            <Header title="Individuelles Auto- und Motorrad-Fahrtraining" image={heroHome}/>
+            <Header title="Individuelles Auto- und Motorrad-Fahrtraining" image={heroHome} showLogo={true} />
             <Usp scrollToContact={scrollToContact}/>
             <div className="grid-text_wide">
                 <div className="intro">

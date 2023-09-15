@@ -1,3 +1,15 @@
+.logo-container {
+    position: absolute;
+    width: 220px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-accent);
+    left: calc(50% - 100px);
+    border-radius: 5px;
+}
+
 .logo {
     width: 200px;
 
