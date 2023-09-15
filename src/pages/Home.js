@@ -20,7 +20,7 @@ function Home() {
                         <Link to="/coaching">Leistungsangebot Coaching</Link>
                     </button>
                     <button className="primary">
-                        <Link to="/fitness">Fahr-Fitness-Check</Link>
+                        <Link to="/fahr-fitness-check">Fahr-Fitness-Check</Link>
                     </button>
                 </div>
             </div>
