@@ -91,15 +91,16 @@ button {
 
 section {
   margin: 40px 0;
+  text-align: left;
 
   .description {
-    text-align: left;
     hyphens: auto;
     -webkit-hyphenate-character: "-";
   }
 
   h2 {
     margin-top: 40px;
+    text-align: center;
   }
 
   h3 {

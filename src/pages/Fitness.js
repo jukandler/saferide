@@ -11,6 +11,7 @@ function Fitness() {
                 <section>
                     <h2>ADAC Fahr-Fitness-Check</h2>
                     <div className="description">
+                        <h3>Weil Mobilität keine Frage des Alters ist</h3>
                         <b>Sicherheit beim Autofahren, insbesondere im Alter, hat höchste Priorität.</b>
                         <p>
                             Der Fahr-Fitness-Check ist ein speziell vom ADAC konzipiertes Programm, das bei mir als Trainer absolviert werden kann. Das Programm richtet sich an ältere, noch regelmäßig Auto fahrende Personen, die zusammen mit speziell durch den ADAC qualifizierten Fahrlehrinnen und Fahrlehrern ihre momentanen persönlichen Fahrfertigkeiten bewerten möchten - kompetent, neutral und ohne Risiko für den Führerschein.
