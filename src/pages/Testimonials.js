@@ -1,5 +1,5 @@
 import Header from '../components/header/Header';
-import heroCoaching from '../assets/hero_fitness.jpg';
+import heroTestimonials from '../assets/hero_testimonials.jpg';
 import buchegger from '../assets/buchegger.jpg';
 import junker from '../assets/junker-brand.jpg';
 
@@ -7,7 +7,7 @@ function Testimonials() {
 
     return (
         <div id="fitness">
-            <Header title="Erfahrungsberichte" image={heroCoaching} />
+            <Header title="Erfahrungsberichte" image={heroTestimonials} />
             <div className="grid-text_wide">
                 <section>
                     <h2>Das sagen meine Kunden</h2>

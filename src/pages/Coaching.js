@@ -9,7 +9,7 @@ function Coaching() {
 
     return (
         <div id="coaching">
-            <Header title="Fehrtraining / Coaching" image={heroCoaching} />
+            <Header title="Fahrtraining / Coaching" image={heroCoaching} />
             <div className="selection-container">
                 <div className="grid-expanded">
                     <h2>Für welchen Schwerpunkt interessierst du dich?</h2>

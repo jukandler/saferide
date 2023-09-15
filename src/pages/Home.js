@@ -17,7 +17,10 @@ function Home() {
                     <p>Oder du hast ein ganz anderes Anliegen zum Thema Verkehrssicherheit?</p>
                     <p><b>Dann bist du hier genau richtig!</b></p>
                     <button className="primary">
-                        <Link to="/coaching">Komplettes Leistungsangebot ansehen</Link>
+                        <Link to="/coaching">Leistungsangebot Coaching</Link>
+                    </button>
+                    <button className="primary">
+                        <Link to="/fitness">Fahr-Fitness-Check</Link>
                     </button>
                 </div>
             </div>
