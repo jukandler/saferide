@@ -1,5 +1,4 @@
 import Header from '../components/header/Header';
-import Footer from '../components/footer/Footer';
 import Contact from '../components/contact/Contact';
 import { Link } from 'react-router-dom';
 import { useRef } from 'react';
@@ -33,7 +32,6 @@ function Home() {
             <div className="grid-text_wide">
                 <Contact forwardedRef={contactRef}/>
             </div>
-            <Footer />
         </div>
     )
 }

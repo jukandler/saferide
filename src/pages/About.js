@@ -1,5 +1,4 @@
 import Contact from '../components/contact/Contact';
-import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 
 import stefanMotorrad from '../assets/stefan_motorrad.jpeg';
@@ -27,7 +26,6 @@ function About() {
                 </section>
                 <Contact />
             </div>
-            <Footer />
         </div>
     )
 }

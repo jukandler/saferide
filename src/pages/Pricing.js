@@ -1,5 +1,4 @@
 import Contact from '../components/contact/Contact';
-import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 import heroPricing from '../assets/hero_pricing.jpg';
 
@@ -39,7 +38,6 @@ function Pricing() {
                 </section>
                 <Contact />
             </div>
-            <Footer />
         </div>
     )
 }

@@ -1,7 +1,11 @@
 .usp-container {
-  background-color: white;
   padding: 40px 0;
-  color: #356C77;
+  color: var(--color-primary);
+  background: var(--color-secondary);
+  
+  h3 {
+    color: var(--color-primary);
+  }
 
   .usp-wrapper {
       
