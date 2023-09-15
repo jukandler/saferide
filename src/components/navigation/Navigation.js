@@ -39,7 +39,8 @@ function Navigation() {
                 <Logo onClick={closeMenu} />
                 <div className="navigation-menu__links">
                     <Link to="/" onClick={handleClick}>Startseite</Link>
-                    <Link to="/leistungen" onClick={handleClick}>Leistungen</Link>
+                    <Link to="/coaching" onClick={handleClick}>Fahrtraining / Coaching</Link>
+                    <Link to="/fahr-fitness-check" onClick={handleClick}>Fahr-Fitness-Check</Link>
                     <Link to="/trainer" onClick={handleClick}>Trainer</Link>
                     <Link to="/preise" onClick={handleClick}>Preise</Link>
                     <Link to="/gutscheine" onClick={handleClick}>Gutscheine</Link>

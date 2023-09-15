@@ -89,6 +89,47 @@ button {
   }
 }
 
+section {
+  margin: 40px 0;
+
+  .description {
+    text-align: left;
+    hyphens: auto;
+    -webkit-hyphenate-character: "-";
+  }
+
+  h2 {
+    margin-top: 40px;
+  }
+
+  h3 {
+    margin-top: 40px;
+  }
+  
+  .section-topics {
+    margin-top: 40px;
+
+    &.align-left {
+      text-align: left;
+    }
+
+    li {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 15px;
+      list-style-type: none;
+      
+      &::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        top: -2px;
+        font-size: 25px;
+      }
+    }
+  }
+}
+
 .App {
   font-family: "OpenSans";
   text-align: center;
@@ -120,20 +161,8 @@ button {
 }
 
 #imprint {
-  h2 {
-    margin-top: 60px;
-  }
-
-  section {
-    margin-top: 40px;
-
-    p {
-      margin-bottom: 0;
-    }
-
-    &.align-left p {
-      text-align: justify;
-    }
+  .align-left p {
+    text-align: justify;
   }
 }
 
@@ -195,7 +224,7 @@ button {
   }
 }
 
-#portfolio {
+#coaching {
   .selection-container {
     background: white;
     padding: 40px 0;
@@ -215,44 +244,52 @@ button {
       margin: 20px 10px;
     }
   }
+}
 
-  .portfolio-section {
-    margin: 40px 0;
+#fitness {
+  .video-preview {
+    position: relative;
+    display: block;
 
-    .description {
-      text-align: justify;
-      hyphens: auto;
-      -webkit-hyphenate-character: "-";
+    img {
+      width: 100%;
     }
 
-    h2 {
-      margin-top: 40px;
-    }
-  
-    h3 {
-      margin-top: 40px;
-    }
-    
-    .section-topics {
-      margin-top: 40px;
-
-      &.align-left {
-        text-align: left;
+    .icon-play {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border: 4px solid white;
+      border-radius: 100px;
+      top: calc(50% - 60px);;
+      left: calc(50% - 50px);;
+      
+      &:before {
+        content: "";
+        width: 34px;
+        height: 53px;
+        border-left: 4px solid white;
+        border-radius: 5px;
+        position: absolute;
+        top: 23px;
+        left: 37px;
       }
-
-      li {
-        margin-bottom: 10px;
-        position: relative;
-        padding-left: 15px;
-        list-style-type: none;
-        
-        &::before {
-          content: "•";
-          position: absolute;
-          left: 0;
-          top: -2px;
-          font-size: 25px;
-        }
+      
+      &:after {
+        content: "";
+        position: absolute;
+        top: 27px;
+        left: 19px;
+        width: 42px;
+        height: 42px;
+        transform: rotate(45deg) skew(-5deg, -5deg);
+        border-top: 4px solid white;
+        border-right: 4px solid white;
+        border-radius: 5px;
+      }
+      
+      &:hover {
+        background-color: rgba(48, 96, 107, 0.7);
       }
     }
   }

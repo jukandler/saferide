@@ -1,16 +1,15 @@
 import { useRef } from 'react';
 import Header from '../components/header/Header';
-import heroPortfolio from '../assets/hero_portfolio.jpg';
+import heroCoaching from '../assets/hero_portfolio.jpg';
 
-function Portfolio() {
+function Coaching() {
     const carRef = useRef(null);
     const motorbikeRef = useRef(null);
     const theorieRef = useRef(null);
-    const fitnessCheckRef = useRef(null);
 
     return (
-        <div id="portfolio">
-            <Header title="Leistungen" image={heroPortfolio} />
+        <div id="coaching">
+            <Header title="Fehrtraining / Coaching" image={heroCoaching} />
             <div className="selection-container">
                 <div className="grid-expanded">
                     <h2>Für welchen Schwerpunkt interessierst du dich?</h2>
@@ -18,7 +17,6 @@ function Portfolio() {
                         <button className="primary" onClick={() => carRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>Auto Fahrtraining</button>
                         <button className="primary" onClick={() => motorbikeRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>Motorrad Fahrtraining</button>
                         <button className="primary" onClick={() => theorieRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>Schulung Theorie</button>
-                        <button className="primary" onClick={() => fitnessCheckRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>ADAC Fahr-Fitness-Check</button>
                     </div>
                 </div>
                 <div className="grid-text_wide disclaimer">
@@ -26,7 +24,7 @@ function Portfolio() {
                 </div>
             </div>
             <div className="grid-text_wide">
-                <section className="portfolio-section">
+                <section>
                     <h2 ref={carRef}>Auto Fahrtraining</h2>
                     <div className="description">
                         <p>
@@ -60,7 +58,7 @@ function Portfolio() {
                         <li>Sicheres Fahren mit Wohnmobil, Wohnwagen oder Anhänger</li>
                     </div>
                 </section>
-                <section className="portfolio-section">
+                <section>
                     <h2 ref={motorbikeRef}>Motorrad Fahrtraining</h2>
                     <div className="description">
                         <p>
@@ -92,7 +90,7 @@ function Portfolio() {
                         <li>Neues Fahrzeug kennenlernen</li>
                     </div>
                 </section>
-                <section className="portfolio-section">
+                <section>
                     <h2 ref={theorieRef}>Schulung Theorie</h2>
                     <div className="description">
                         <p>
@@ -126,25 +124,9 @@ function Portfolio() {
                         <li>uvm...</li>
                     </div>
                 </section>
-                <section className="portfolio-section">
-                    <h2 ref={fitnessCheckRef}>ADAC Fahr-Fitness-Check</h2>
-                    <div className="description">
-                        <p>
-                            Der Fahr-Fitness-Check ist ein speziell vom ADAC konzipiertes Programm, das bei mir als Trainer absolviert werden kann. Das Programm richtet sich an ältere, noch regelmäßig Auto fahrende Personen, die zusammen mit speziell durch den ADAC qualifizierten Fahrlehrinnen und Fahrlehrern ihre momentanen persönlichen Fahrfertigkeiten bewerten möchten - kompetent, neutral und ohne Risiko für den Führerschein.
-                        </p>
-                        <p>
-                            Weitere Infos zum Fahr-Fitness-Check sind auf diesem Flyer zu finden:
-                        </p>
-                        <p>
-                            <a href="https://assets.adac.de/image/upload/v1654159908/ADAC-eV/KOR/Text/PDF/2022-05_VSP_FLY_Fahrfitness-Check_05_22_42_g250nm.pdf" target="_blank" rel="noopener noreferrer">
-                                &gt; Flyer ADAC Fahr-Fitness-Check
-                            </a>
-                        </p>
-                    </div>
-                </section>
             </div>
         </div>
     )
 }
 
-export default Portfolio;
+export default Coaching;

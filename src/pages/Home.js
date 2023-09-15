@@ -17,7 +17,7 @@ function Home() {
                     <p>Oder du hast ein ganz anderes Anliegen zum Thema Verkehrssicherheit?</p>
                     <p><b>Dann bist du hier genau richtig!</b></p>
                     <button className="primary">
-                        <Link to="/leistungen">Komplettes Leistungsangebot ansehen</Link>
+                        <Link to="/coaching">Komplettes Leistungsangebot ansehen</Link>
                     </button>
                 </div>
             </div>
