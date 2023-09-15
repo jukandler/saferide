@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d65fc46.css",
-    "main.js": "/static/js/main.f892c25b.js",
+    "main.css": "/static/css/main.531176e9.css",
+    "main.js": "/static/js/main.512d8367.js",
     "static/js/787.29194250.chunk.js": "/static/js/787.29194250.chunk.js",
     "static/media/hero_pricing.jpg": "/static/media/hero_pricing.4ab4e1b55ef84796be7b.jpg",
     "static/media/hero_vouchers.jpg": "/static/media/hero_vouchers.82513d455509c4c63105.jpg",
+    "static/media/buchegger.jpg": "/static/media/buchegger.16edaf34b4594b254af5.jpg",
     "static/media/hero_home.jpg": "/static/media/hero_home.e686fb1e6b2ce96ff634.jpg",
     "static/media/hero_portfolio.jpg": "/static/media/hero_portfolio.3d1774883e00ac2e6e46.jpg",
+    "static/media/hero_testimonials.jpg": "/static/media/hero_testimonials.ef3d9fc460c2898a34b3.jpg",
     "static/media/gutschein_motorrad.jpg": "/static/media/gutschein_motorrad.524d004d9f702b30d144.jpg",
     "static/media/gutschein_auto.jpg": "/static/media/gutschein_auto.aa93036ebf5e3fc33311.jpg",
+    "static/media/hero_fitness.jpg": "/static/media/hero_fitness.e56d36095097fae16534.jpg",
     "static/media/stefan_motorrad.jpeg": "/static/media/stefan_motorrad.d846dfb75e85f00963d4.jpeg",
+    "static/media/junker-brand.jpg": "/static/media/junker-brand.b4d34dc384855b9ed6d3.jpg",
+    "static/media/poster.jpg": "/static/media/poster.c8d52534bd8e8c30a80b.jpg",
     "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
     "static/media/OpenSans-Bold.ttf": "/static/media/OpenSans-Bold.fa428cdd2e334e2be904.ttf",
     "static/media/OpenSans-SemiBold.ttf": "/static/media/OpenSans-SemiBold.2f17aae884058c5a85df.ttf",
     "static/media/stefan_portrait.jpeg": "/static/media/stefan_portrait.0fb3ba4f3231f8723c63.jpeg",
     "static/media/navbar-logo.jpg": "/static/media/navbar-logo.146d4648cf13faa347b6.jpg",
     "index.html": "/index.html",
-    "main.3d65fc46.css.map": "/static/css/main.3d65fc46.css.map",
-    "main.f892c25b.js.map": "/static/js/main.f892c25b.js.map",
+    "main.531176e9.css.map": "/static/css/main.531176e9.css.map",
+    "main.512d8367.js.map": "/static/js/main.512d8367.js.map",
     "787.29194250.chunk.js.map": "/static/js/787.29194250.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d65fc46.css",
-    "static/js/main.f892c25b.js"
+    "static/css/main.531176e9.css",
+    "static/js/main.512d8367.js"
   ]
 }
