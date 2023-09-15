@@ -3,11 +3,14 @@ import CallIcon from "../../assets/icons/call.png";
 import MailIcon from "../../assets/icons/mail.png";
 import WhatsappIcon from "../../assets/icons/whatsapp.png";
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Logo from '../Logo/Logo';
 import MenuToCloseIcon from '../MenuToCloseIcon/MenuToCloseIcon';
 
 function Navigation() {
+    const location = useLocation();
+    const menuIconColor = location.pathname !== "/" ? "#FFFFFF" : "#30606B";
+    
     const [isOpen, setIsOpen] = useState(false);
 
     const handleClick = () => setIsOpen(!isOpen);
@@ -17,7 +20,7 @@ function Navigation() {
     return (
         <nav>
             <div className="navbar-icon" onClick={handleClick}>
-                <MenuToCloseIcon isOpen={isOpen}/>
+                <MenuToCloseIcon color={menuIconColor} isOpen={isOpen}/>
             </div>
             <div className="sticky-navbar">
                 <div className="action-icons grid-text_wide">

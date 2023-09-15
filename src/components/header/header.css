@@ -1,6 +1,11 @@
 header {
   position: relative;
   height: 100vh;
+  background-color: var(--color-secondary);
+
+  &.minimal {
+    height: 45vh;
+  }
 
   .hero-image {
     width: 100vw;
@@ -30,7 +35,7 @@ header {
     background-color: #f0f8ff70;
     backdrop-filter: blur(10px);
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 7px;
   }
 }
 
