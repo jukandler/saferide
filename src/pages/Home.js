@@ -16,12 +16,12 @@ function Home() {
                     <p>Du bist ambitionierter Motorradfahrer und möchtest deine Fahrtechnik verfeinern oder mehr Sicherheit beim Kurvenfahren gewinnen?</p>
                     <p>Oder du hast ein ganz anderes Anliegen zum Thema Verkehrssicherheit?</p>
                     <p><b>Dann bist du hier genau richtig!</b></p>
-                    <button className="primary">
-                        <Link to="/coaching">Leistungsangebot Coaching</Link>
-                    </button>
-                    <button className="primary">
-                        <Link to="/fahr-fitness-check">Fahr-Fitness-Check</Link>
-                    </button>
+                        <Link to="/coaching">
+                            <button className="primary">Leistungsangebot Coaching</button>
+                        </Link>
+                        <Link to="/fahr-fitness-check">
+                            <button className="primary">Fahr-Fitness-Check</button>
+                        </Link>
                 </div>
             </div>
         </div>
