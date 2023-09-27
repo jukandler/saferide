@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8e94e62a.css",
-    "main.js": "/static/js/main.7adb7c0a.js",
+    "main.js": "/static/js/main.11da0e99.js",
     "static/js/787.29194250.chunk.js": "/static/js/787.29194250.chunk.js",
     "static/media/hero_pricing.jpg": "/static/media/hero_pricing.4ab4e1b55ef84796be7b.jpg",
     "static/media/hero_vouchers.jpg": "/static/media/hero_vouchers.82513d455509c4c63105.jpg",
@@ -9,9 +9,11 @@
     "static/media/hero_home.jpg": "/static/media/hero_home.e686fb1e6b2ce96ff634.jpg",
     "static/media/hero_portfolio.jpg": "/static/media/hero_portfolio.3d1774883e00ac2e6e46.jpg",
     "static/media/hero_testimonials.jpg": "/static/media/hero_testimonials.ef3d9fc460c2898a34b3.jpg",
+    "static/media/helmut.jpg": "/static/media/helmut.a0a63e1397c7f458c09a.jpg",
     "static/media/gutschein_motorrad.jpg": "/static/media/gutschein_motorrad.524d004d9f702b30d144.jpg",
     "static/media/gutschein_auto.jpg": "/static/media/gutschein_auto.aa93036ebf5e3fc33311.jpg",
     "static/media/hero_fitness.jpg": "/static/media/hero_fitness.e56d36095097fae16534.jpg",
+    "static/media/gutschein_ffc.jpg": "/static/media/gutschein_ffc.4eb3253635371c48cbff.jpg",
     "static/media/stefan_motorrad.jpeg": "/static/media/stefan_motorrad.d846dfb75e85f00963d4.jpeg",
     "static/media/junker-brand.jpg": "/static/media/junker-brand.b4d34dc384855b9ed6d3.jpg",
     "static/media/poster.jpg": "/static/media/poster.c8d52534bd8e8c30a80b.jpg",
@@ -22,11 +24,11 @@
     "static/media/navbar-logo.jpg": "/static/media/navbar-logo.146d4648cf13faa347b6.jpg",
     "index.html": "/index.html",
     "main.8e94e62a.css.map": "/static/css/main.8e94e62a.css.map",
-    "main.7adb7c0a.js.map": "/static/js/main.7adb7c0a.js.map",
+    "main.11da0e99.js.map": "/static/js/main.11da0e99.js.map",
     "787.29194250.chunk.js.map": "/static/js/787.29194250.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e94e62a.css",
-    "static/js/main.7adb7c0a.js"
+    "static/js/main.11da0e99.js"
   ]
 }
