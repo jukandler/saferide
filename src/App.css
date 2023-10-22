@@ -1,0 +1,301 @@
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"),
+  url("./fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: local("OpenSansBold"),
+  url("./fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: local("OpenSansBold"),
+  url("./fonts/OpenSans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+h2,
+h3,
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a.linkout {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #21434a;
+  font-family: "OpenSansBold";
+}
+
+h2,
+h3,
+b {
+  font-family: "OpenSansSemiBold";
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-accent);
+  margin: 40px 0;
+}
+
+button {
+  border: 2px solid var(--color-accent);
+  color: var(--color-accent);
+  background: white;
+  font-family: "OpenSansSemiBold";
+  text-transform: uppercase;
+  padding: 15px 25px;
+  letter-spacing: 0.095em;
+  cursor: pointer;
+  border-radius: 7px;
+  box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+  display: block;
+  margin: 20px auto;
+  transition: all 0.2s ease 0s;
+  font-size: 15px;
+
+  a {
+    color: var(--color-accent);
+  }
+
+  &:hover {
+    background: var(--color-accent);
+    color: white;
+
+    a {
+      color: white;
+    }
+  }
+
+  &.primary {
+    background: var(--color-accent);
+    color: white;
+
+    a {
+      color: white;
+    }
+
+    &:hover {
+      background: white;
+      color: var(--color-accent);
+
+      a {
+        color: var(--color-accent);
+      }
+    }
+  }
+}
+
+section {
+  margin: 40px 0;
+  text-align: left;
+
+  h2 {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  h3 {
+    margin-top: 40px;
+  }
+  
+  .section-topics {
+    margin-top: 40px;
+
+    &.align-left {
+      text-align: left;
+    }
+
+    li {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 15px;
+      list-style-type: none;
+      
+      &::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        top: -2px;
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+.content-image {
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: 10px 10px 20px -20px #2e2e2e;
+
+  &.square {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: right;
+  }
+}
+
+.App {
+  font-family: "OpenSans";
+  text-align: center;
+  min-height: 100vh;
+  box-sizing: border-box; 
+  position: relative;
+  font-size: 18px;
+  hyphens: auto;
+  -webkit-hyphenate-character: "-";
+
+  @media (min-width: 750px) {
+    font-size: 20px;
+  }
+}
+
+.grid-text_wide {
+  padding: 0 24px;
+  max-width: min(648px, calc(100% - (2 * 25px)));
+  margin: 0 auto;
+}
+
+.grid-expanded {
+  padding: 0 24px;
+  max-width: 912px;
+  margin: 0 auto;
+}
+
+.instagram-logo {
+  width: 40px;
+  height: 40px;
+}
+
+#imprint {
+  .align-left p {
+    text-align: justify;
+  }
+}
+
+#about {
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    @media (min-width: 750px) {
+        flex-direction: row;
+
+        .content-image {
+          margin-left: 40px;
+        }
+    }
+  }
+}
+
+#home {
+  .intro {
+    padding: 40px 0;
+  }
+
+  h1 {
+    hyphens: none;
+  }
+}
+
+#pricing {
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+
+  td {
+    border: 1px solid #2e2e2e;
+    padding: 10px 45px;
+  }
+}
+
+#vouchers {
+  img {
+    width: 100%;
+  }
+}
+
+#coaching {
+  .selection-container {
+    background: white;
+    padding: 40px 0;
+  }
+
+  .selection {
+    @media (min-width: 750px) {
+      display: flex;
+    }
+  }
+
+  button {
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+    @media (min-width: 705px) {
+      margin: 20px 10px;
+    }
+  }
+}
+
+#fitness {
+  .video-preview {
+    position: relative;
+    display: block;
+
+    img {
+      width: 100%;
+    }
+
+    .icon-play {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border: 4px solid white;
+      border-radius: 100px;
+      top: calc(50% - 60px);;
+      left: calc(50% - 50px);;
+      
+      &:before {
+        content: "";
+        width: 34px;
+        height: 53px;
+        border-left: 4px solid white;
+        border-radius: 5px;
+        position: absolute;
+        top: 23px;
+        left: 37px;
+      }
+      
+      &:after {
+        content: "";
+        position: absolute;
+        top: 27px;
+        left: 19px;
+        width: 42px;
+        height: 42px;
+        transform: rotate(45deg) skew(-5deg, -5deg);
+        border-top: 4px solid white;
+        border-right: 4px solid white;
+        border-radius: 5px;
+      }
+      
+      &:hover {
+        background-color: rgba(48, 96, 107, 0.7);
+      }
+    }
+  }
+}

@@ -1,0 +1,115 @@
+nav {
+    .navbar-icon {
+        position: fixed;
+        right: 30px;
+        top: 30px;
+        z-index: 6;
+        cursor: pointer;
+
+        @media (min-width: 750px) {
+            right: 60px;
+            top: 60px;
+        }
+
+        img,
+        svg {
+            width: 30px;
+            height: 30px;
+            
+            @media (min-width: 750px) {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+
+    .sticky-navbar {
+        height: 50px;
+        background-color: var(--color-accent);
+        position: fixed;
+        z-index: 10;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+        .action-icons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 48px;
+                width: 48px;
+            }
+
+            img {
+                width: 30px;
+                height: 30px;
+                object-fit: contain;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .navigation-menu {
+        opacity: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: var(--color-accent);
+        z-index: 5;
+        transition: all 0.2s ease 0s;
+        animation: 0.2s ease-in open-menu;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        overflow: scroll;
+
+        .logo {
+            position: absolute;
+            left: calc(50% - 100px);
+            top: 80px;
+
+            @media (min-width: 750px) {
+                left: calc(50% - 150px);
+            }
+        }
+
+        &__links {
+            margin-top: 155px;
+
+            @media (min-width: 750px) {
+                margin-top: 280px;
+            }
+        }
+
+        a {
+            font-size: 25px;
+            color: white;
+            display: block;
+            margin: 15px 0;
+            text-align: center;
+            height: 48px;
+            
+            @media (min-width: 750px) {
+                font-size: 30px;
+                margin: 25px 0;
+            }
+        }
+    }
+
+    @keyframes open-menu {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+}
