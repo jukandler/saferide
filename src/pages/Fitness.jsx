@@ -19,7 +19,7 @@ function Fitness() {
                         <p>
                             Der Fahr-Fitness-Check ist ein speziell vom ADAC konzipiertes Programm, das bei mir als Trainer absolviert werden kann. Das Programm richtet sich an ältere, noch regelmäßig Auto fahrende Personen, die zusammen mit speziell durch den ADAC qualifizierten Fahrlehrinnen und Fahrlehrern ihre momentanen persönlichen Fahrfertigkeiten bewerten möchten - kompetent, neutral und ohne Risiko für den Führerschein.
                         </p>
-                        <h3>Bayrischer Rundfunk (März 2024)</h3>
+                        <h3>Bayerischer Rundfunk (März 2024)</h3>
                         <p>Senioren am Steuer: Ist ein Medizin-Check sinnvoll?</p>
                         <a href="https://www.ardmediathek.de/video/gesundheit/senioren-am-steuer-ist-ein-medizin-check-sinnvoll/br-fernsehen/Y3JpZDovL2JyLmRlL3ZpZGVvLzUyZWRkMjE0LWE2YTYtNDQ4Ni04NTk2LTdiNzc5Mjk0NmI1Mg" rel="noopener noreferrer" target="_blank" className="video-preview">
                             <div className="icon-play"></div>
