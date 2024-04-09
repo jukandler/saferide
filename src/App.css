@@ -252,13 +252,12 @@ section {
 }
 
 #fitness {
+  img {
+    width: 100%;
+  }
   .video-preview {
     position: relative;
     display: block;
-
-    img {
-      width: 100%;
-    }
 
     .icon-play {
       position: absolute;
