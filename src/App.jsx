@@ -13,8 +13,8 @@ import ScrollToTop from "./helpers/scrollToTopl";
 import Coaching from "./pages/Coaching";
 import Navigation from "./components/navigation/Navigation";
 import About from "./pages/About";
+import Media from "./pages/Media";
 import Pricing from "./pages/Pricing";
-import Vouchers from "./pages/Vouchers";
 import Footer from "./components/footer/footer";
 import Fitness from "./pages/Fitness";
 import Testimonials from "./pages/Testimonials";
@@ -33,7 +33,7 @@ function App() {
           <Route path="/kunden" element={<Testimonials/>} />
           <Route path="/trainer" element={<About/>} />
           <Route path="/preise" element={<Pricing/>} />
-          <Route path="/gutscheine" element={<Vouchers/>} />
+          <Route path="/presse" element={<Media/>} />
         </Routes>
         <Footer />
       </HashRouter>
