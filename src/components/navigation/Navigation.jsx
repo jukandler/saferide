@@ -43,7 +43,6 @@ function Navigation() {
                     <Link to="/fahr-fitness-check" onClick={handleClick}>Fahr-Fitness-Check</Link>
                     <Link to="/trainer" onClick={handleClick}>Trainer</Link>
                     <Link to="/presse" onClick={handleClick}>Presse</Link>
-                    <Link to="/kunden" onClick={handleClick}>Erfahrungsberichte</Link>
                     <Link to="/preise" onClick={handleClick}>Preisübersicht / Gutscheine</Link>
                 </div>
             </div>}
