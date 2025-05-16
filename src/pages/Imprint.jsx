@@ -13,12 +13,6 @@ function Imprint() {
                     <p>E-Mail: <a href="mailto:ks@kskandler.de">ks@kskandler.de</a></p>
                     <p>USt-IdNr.: DE 13123450587</p>
                 </section>
-                <section>
-                    <h3>Gestaltung und Programmierung:</h3>
-                    <p><b>Julia Kandler</b></p>
-                    <p>Königinstraße 37, 80539 München</p>
-                    <p>E-Mail: <a href="mailto:julia@kskandler.de">julia@kskandler.de</a></p>
-                </section>
                 <section className="align-left">
                     <h3>Haftung für Inhalte:</h3>
                     <p>
