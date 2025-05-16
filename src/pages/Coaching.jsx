@@ -92,37 +92,23 @@ function Coaching() {
                 </section>
                 <section>
                     <h2 ref={theorieRef}>Schulung Theorie</h2>
-                    <div>
-                        <p>
-                            Die Straßenverkehrsordnung, Verkehrsregeln und Verkehrsrecht sind meine Spezialgebiete. Durch regelmäßige Unterrichte in den verschiedenen Führerscheinklassen und Bereichen der Feuerwehr und Berufskraftfahrer*innen, Aus- und Weiterbildungen bleibe ich mit meinem Wissen ständig am Ball. 
-                            Aus diesen Schulungen und den regelmäßigen Kontakt zu unterschiedlichsten Verkehrsteilnehmern kenne ich die Defizite und Wissenslücken vieler Verkehrsteilnehmer. 
-                        </p>
-                        <p>
-                            Ich unterrichte regelmäßig in Volkshochschulen, Seniorenvereinen oder generell interessierten Gruppen über Verkehrsregeln, Neuerungen der Straßenverkehrsordnung, Fahrzeugtechnik und Fahrsicherheit.
-                        </p>
-                    </div>
-                    <h3>Beliebter Unterricht: "Die 50 größten Irrtümer im Straßenverkehr"</h3>
-                    <div className="section-topics align-left">
-                        <p><b>Unter anderem werden folgende Fragen geklärt:</b></p>
-                        <li>Sind Kopfhörer beim Radfahren wirklich verboten?</li>
-                        <li>Dürfen Radfahrer nebeneinander fahren?</li>
-                        <li>Kann ich den Alkohol- oder Drogentest bei einer Polizeikontrolle verweigern?</li>
-                        <li>Darf ich die Nebelschlußleuchte auch bei Regen oder Schneefall einschalten?</li>
-                        <li>Wie muss ich mich bei Bussen mit Warnblinklicht verhalten?</li>
-                        <li>Worin liegt der Unterschied zwischen "grünem Pfeil" (Leuchtpfeil)" und "Grünpfeil" (Blechschild)?</li>
-                        <li>Gibt es neben der 0,5-Promille-Grenze noch weitere Promillegrenzen?</li>
-                        <li>Darf ich mit abgelaufenem TÜV fahren?</li>
-                        <li>Gilt auf Parkplätzen rechts vor links?</li>
-                        <li>Reicht es, bei einem Parkrempler einen Zettel zu hinterlassen?</li>
-                        <li>Darf man wegen Wild auf der Fahrbahn stark bremsen?</li>
-                        <li>Ist Fahren mit Flip Flops oder barfuß verboten?</li>
-                        <li>Darf man bei verletzten Motorradfahrern den Helm abnehmen?</li>
-                        <li>Schadet untertourig fahren dem Motor?</li>
-                        <li>Darf man mit dem Fahrrad alkoholisiert fahren?</li>
-                        <li>Gehören die besseren Reifen wirklich auf die angetriebene Achse?</li>
-                        <li>Darf ich bei Aquaplaning oder in einer Kurve stark bremsen?</li>
-                        <li>uvm...</li>
-                    </div>
+                    <h3>Vorträge für mehr Sicherheit und Klarheit im Straßenverkehr</h3>
+                    <p>Als Fahrlehrer, Fahrtrainer und ADAC-Fahr-Fitness-Check-Trainer biete ich regelmäßig Vorträge für Volkshochschulen, Seniorenvereine und interessierte Gruppen an. Mit viel Erfahrung und Praxisbezug vermittle ich Wissen rund um Mobilität, Fahrkompetenz und aktuelle Verkehrsregeln – verständlich, anschaulich und immer mit einem Blick auf den Alltag der Teilnehmenden. Besonders beliebt sind diese beiden Themen:</p>
+                    <h4><b>1. Autofahren im Alter – Sicher mobil bleiben</b></h4>
+                    <p>Für viele ältere Menschen bedeutet Autofahren Freiheit und Selbstständigkeit. Doch mit zunehmendem Alter tauchen Fragen auf:
+                        Bin ich noch sicher unterwegs? Welche Auswirkungen haben Medikamente, nachlassende Reaktionsfähigkeit oder gesundheitliche Einschränkungen?
+                        In diesem Vortrag erfahren Sie, worauf ältere Fahrerinnen und Fahrer sowie deren Angehörige achten sollten. Wir sprechen über Themen wie Sehvermögen, Reaktionsfähigkeit, Beweglichkeit und den Umgang mit Krankheiten wie Demenz. Ich stelle Möglichkeiten zur freiwilligen Überprüfung der Fahrtauglichkeit vor – z. B. durch den ADAC Fahr-Fitness-Check – und erläutere, wie gezielte Auffrischungsstunden oder Sicherheitstrainings helfen können, die eigene Mobilität verantwortungsvoll zu sichern.
+                    </p>
+                    <h4><b>2. Neue Regeln & Irrtümer im Straßenverkehr – Was Sie wirklich wissen müssen</b></h4>
+                    <p>Straßenverkehrsregeln ändern sich – und nicht alles, was im Alltag als "üblich" gilt, ist auch korrekt. In diesem Vortrag klären wir über weitverbreitete Irrtümer auf und beleuchten wichtige Neuerungen der letzten Jahre.
+                        Themen sind unter anderem:
+                    </p>
+                    <li>Vorbeifahren an haltenden Schulbussen</li>
+                    <li>Blinken in abknickenden Vorfahrtsstraßen</li>
+                    <li>"Rechts vor links" auf Parkplätzen</li>
+                    <li>Unterschiede zwischen Grünpfeil (Blechschild) und Leuchtpfeil</li>
+                    <li>Handynutzung am Steuer</li>
+                    <p> Ziel ist es, Sicherheit und Selbstbewusstsein im Straßenverkehr zu stärken – durch Wissen, das man sofort umsetzen kann.</p>
                 </section>
             </div>
         </div>
