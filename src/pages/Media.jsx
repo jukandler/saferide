@@ -9,12 +9,18 @@ import posterLT2 from '../assets/BerichtLT_Martin Stadler.jpg';
 import berichtLT2 from '../assets/BerichtLT_Martin Stadler.pdf';
 import posterLT3 from '../assets/BerichtLT_Vortrag Landratsamt.jpg';
 import berichtLT3 from '../assets/BerichtLT_Vortrag Landratsamt.pdf';
+import berichtLT4 from '../assets/BerichtLT_Vespa-Training.pdf';
+import posterLT4 from '../assets/BerichtLT_Vespa-Training.jpg';
 
 function Media() {
     return (
         <div id="media">
-            <Header title="Presseberichte" image={heroMedia} />
+            <Header title="Presse und TV-Beiträge" image={heroMedia} />
             <div className="grid-text_wide">
+                <h3>Bericht im Landsberger Tagblatt (Juli 2025)</h3>
+                <a href={berichtLT4} target="_blank" rel="noopener noreferrer">
+                    <img src={posterLT4} alt="Zeitungsbericht aus dem Landsberger Tagblatt"></img>
+                </a>
                 <h3>ZDF - Hallo Deutschland (Mai 2025)</h3>
                 <a href="https://www.zdf.de/video/magazine/hallo-deutschland-104/hallo-deutschland-vom-8-mai-2025-100" rel="noopener noreferrer" target="_blank" className="video-preview zdf">
                     <div className="icon-play"></div>
